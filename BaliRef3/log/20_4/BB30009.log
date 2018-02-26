@@ -1,0 +1,106 @@
+2018-02-26 12:43:25,143837810
+Started Mon Feb 26 12:43:25 2018
+../muscle3.8.31_i86linux64 -in BaliRef3/seq/BB30009.tfa -out BaliRef3/seq/BB30009.afa -distance1 kmer20_4 -loga BaliRef3/seq/BB30009.log -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_4
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+38 seqs, max length 256, avg  length 171
+Align: (1hst_A) (H5A_XENLA)
+Align: (H1_DROHY) (H11_DROVI)
+Align: (H1_DROME) (H1_DROHY,H11_DROVI)
+Align: (H1_PARAN) (H1_ECHCR)
+Align: (H12_CAEEL) (H11_CAEEL)
+Align: (H1B_XENLA) (H1A_XENLA)
+Align: (H11_BOVIN) (H101_CHICK)
+Align: (H11_HUMAN) (H11_BOVIN,H101_CHICK)
+Align: (H11_MOUSE) (H11_HUMAN,H11_BOVIN,H101_CHICK)
+Align: (H1_ONCMY) (H11_MOUSE,H11_HUMAN,H11_BOVIN,H101_CHICK)
+Align: (H1B_XENLA,H1A_XENLA) (H1_ONCMY,H11_MOUSE,H11_HUMAN,H11_BOVIN,H101_CHICK)
+Align: (H1_TIGCA) (H1B_XENLA,H1A_XENLA,H1_ONCMY,H11_MOUSE,H11_HUMAN,H11_BOVIN,H101_CHICK)
+Align: (H1G_STRPU) (H1B_STRPU)
+Align: (H1E_CHIPA) (H12_GLYBA)
+Align: (H11_GLYBA) (H1E_CHIPA,H12_GLYBA)
+Align: (H1G_STRPU,H1B_STRPU) (H11_GLYBA,H1E_CHIPA,H12_GLYBA)
+Align: (H1D_STRPU) (H1G_STRPU,H1B_STRPU,H11_GLYBA,H1E_CHIPA,H12_GLYBA)
+Align: (H1_TIGCA,H1B_XENLA,H1A_XENLA,H1_ONCMY,H11_MOUSE,H11_HUMAN,H11_BOVIN,H101_CHICK) (H1D_STRPU,H1G_STRPU,H1B_STRPU,H11_GLYBA,H1E_CHIPA,H12_GLYBA)
+Align: (H12_CAEEL,H11_CAEEL) (H1_TIGCA,H1B_XENLA,H1A_XENLA,H1_ONCMY,H11_MOUSE,H11_HUMAN,H11_BOVIN,H101_CHICK,H1D_STRPU,H1G_STRPU,H1B_STRPU,H11_GLYBA,H1E_CHIPA,H12_GLYBA)
+Align: (H1E_STRPU) (H12_CAEEL,H11_CAEEL,H1_TIGCA,H1B_XENLA,H1A_XENLA,H1_ONCMY,H11_MOUSE,H11_HUMAN,H11_BOVIN,H101_CHICK,H1D_STRPU,H1G_STRPU,H1B_STRPU,H11_GLYBA,H1E_CHIPA,H12_GLYBA)
+Align: (H1_PARAN,H1_ECHCR) (H1E_STRPU,H12_CAEEL,H11_CAEEL,H1_TIGCA,H1B_XENLA,H1A_XENLA,H1_ONCMY,H11_MOUSE,H11_HUMAN,H11_BOVIN,H101_CHICK,H1D_STRPU,H1G_STRPU,H1B_STRPU,H11_GLYBA,H1E_CHIPA,H12_GLYBA)
+Align: (H1_DROME,H1_DROHY,H11_DROVI) (H1_PARAN,H1_ECHCR,H1E_STRPU,H12_CAEEL,H11_CAEEL,H1_TIGCA,H1B_XENLA,H1A_XENLA,H1_ONCMY,H11_MOUSE,H11_HUMAN,H11_BOVIN,H101_CHICK,H1D_STRPU,H1G_STRPU,H1B_STRPU,H11_GLYBA,H1E_CHIPA,H12_GLYBA)
+Align: (H1A_PLADU) (H1_DROME,H1_DROHY,H11_DROVI,H1_PARAN,H1_ECHCR,H1E_STRPU,H12_CAEEL,H11_CAEEL,H1_TIGCA,H1B_XENLA,H1A_XENLA,H1_ONCMY,H11_MOUSE,H11_HUMAN,H11_BOVIN,H101_CHICK,H1D_STRPU,H1G_STRPU,H1B_STRPU,H11_GLYBA,H1E_CHIPA,H12_GLYBA)
+Align: (1hst_A,H5A_XENLA) (H1A_PLADU,H1_DROME,H1_DROHY,H11_DROVI,H1_PARAN,H1_ECHCR,H1E_STRPU,H12_CAEEL,H11_CAEEL,H1_TIGCA,H1B_XENLA,H1A_XENLA,H1_ONCMY,H11_MOUSE,H11_HUMAN,H11_BOVIN,H101_CHICK,H1D_STRPU,H1G_STRPU,H1B_STRPU,H11_GLYBA,H1E_CHIPA,H12_GLYBA)
+Align: (ARGR_HAEIN) (ARGR_PASMU)
+Align: (ARGR_SHEON) (ARGR_HAEIN,ARGR_PASMU)
+Align: (1aoy_) (ARGR_SHEON,ARGR_HAEIN,ARGR_PASMU)
+Align: (TRPR_CHLTR) (TRPR_CHLCV)
+Align: (TRPR_PASMU) (TRPR_HAEIN)
+Align: (TRPR_VIBPA) (TRPR_VIBVU)
+Align: (TRPR_VIBCH) (TRPR_VIBPA,TRPR_VIBVU)
+Align: (1jhg_A) (TRPR_YERPE)
+Align: (TRPR_VIBCH,TRPR_VIBPA,TRPR_VIBVU) (1jhg_A,TRPR_YERPE)
+Align: (TRPR_PASMU,TRPR_HAEIN) (TRPR_VIBCH,TRPR_VIBPA,TRPR_VIBVU,1jhg_A,TRPR_YERPE)
+Align: (TRPR_CHLTR,TRPR_CHLCV) (TRPR_PASMU,TRPR_HAEIN,TRPR_VIBCH,TRPR_VIBPA,TRPR_VIBVU,1jhg_A,TRPR_YERPE)
+Align: (1aoy_,ARGR_SHEON,ARGR_HAEIN,ARGR_PASMU) (TRPR_CHLTR,TRPR_CHLCV,TRPR_PASMU,TRPR_HAEIN,TRPR_VIBCH,TRPR_VIBPA,TRPR_VIBVU,1jhg_A,TRPR_YERPE)
+Align: (1hst_A,H5A_XENLA,H1A_PLADU,H1_DROME,H1_DROHY,H11_DROVI,H1_PARAN,H1_ECHCR,H1E_STRPU,H12_CAEEL,H11_CAEEL,H1_TIGCA,H1B_XENLA,H1A_XENLA,H1_ONCMY,H11_MOUSE,H11_HUMAN,H11_BOVIN,H101_CHICK,H1D_STRPU,H1G_STRPU,H1B_STRPU,H11_GLYBA,H1E_CHIPA,H12_GLYBA) (1aoy_,ARGR_SHEON,ARGR_HAEIN,ARGR_PASMU,TRPR_CHLTR,TRPR_CHLCV,TRPR_PASMU,TRPR_HAEIN,TRPR_VIBCH,TRPR_VIBPA,TRPR_VIBVU,1jhg_A,TRPR_YERPE)
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   17 MB(-3%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   17 MB(-3%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   17 MB(-3%)  Iteration   2 Root alignment
+Anchor columns found       0
+DP area saved by anchors   0.0 %
+Elapsed time 00:00:00  Peak memory use   17 MB(-3%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   17 MB(-3%)  Iteration   4 Refine biparts
+Elapsed time 00:00:00  Peak memory use   17 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   17 MB(-3%)  Iteration   5 Refine biparts
+Finished Mon Feb 26 12:43:25 2018
+2018-02-26 12:43:25,726715799

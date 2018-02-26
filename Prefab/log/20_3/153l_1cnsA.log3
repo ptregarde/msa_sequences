@@ -1,0 +1,123 @@
+2018-02-26 13:03:14,736771165
+Started Mon Feb 26 13:03:14 2018
+../muscle3.8.31_i86linux64 -in Prefab/seq/153l_1cnsA.fasta -out Prefab/seq/153l_1cnsA.afa3 -distance1 kmer20_3 -loga Prefab/seq/153l_1cnsA.log3 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_3
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+50 seqs, max length 244, avg  length 200
+Elapsed time 00:00:00  Peak memory use   11 MB(-2%)  Iteration   1 
+Align: (31|153l|gi|28870683) (89|1cnsA|gi|1705813)
+Align: (107|1cnsA|gi|116303) (31|153l|gi|28870683,89|1cnsA|gi|1705813)
+Align: (14|153l|gi|9630157) (77|1cnsA|gi|3892724)
+Align: (20|153l|gi|30249584) (53|1cnsA|gi|2129928)
+Align: (8|153l|gi|38074252) (105|1cnsA|gi|31126701)
+Align: (27|153l|gi|34498066) (8|153l|gi|38074252,105|1cnsA|gi|31126701)
+Align: (3|1cnsA|gi|7435351) (27|153l|gi|34498066,8|153l|gi|38074252,105|1cnsA|gi|31126701)
+Align: (20|153l|gi|30249584,53|1cnsA|gi|2129928) (3|1cnsA|gi|7435351,27|153l|gi|34498066,8|153l|gi|38074252,105|1cnsA|gi|31126701)
+Align: (18|153l|gi|24376132) (20|153l|gi|30249584,53|1cnsA|gi|2129928,3|1cnsA|gi|7435351,27|153l|gi|34498066,8|153l|gi|38074252,105|1cnsA|gi|31126701)
+Align: (11|153l|gi|28372527) (90|1cnsA|gi|166345)
+Align: (33|1cnsA|gi|27526732) (11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (111|1cnsA|gi|30844172) (33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (24|153l|gi|23029257) (111|1cnsA|gi|30844172,33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (4|1cnsA|gi|17932710) (24|153l|gi|23029257,111|1cnsA|gi|30844172,33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (28|153l|gi|15793502) (4|1cnsA|gi|17932710,24|153l|gi|23029257,111|1cnsA|gi|30844172,33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (19|153l|gi|34497489) (28|153l|gi|15793502,4|1cnsA|gi|17932710,24|153l|gi|23029257,111|1cnsA|gi|30844172,33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (82|1cnsA|gi|3334147) (19|153l|gi|34497489,28|153l|gi|15793502,4|1cnsA|gi|17932710,24|153l|gi|23029257,111|1cnsA|gi|30844172,33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (21|153l|gi|23099593) (82|1cnsA|gi|3334147,19|153l|gi|34497489,28|153l|gi|15793502,4|1cnsA|gi|17932710,24|153l|gi|23029257,111|1cnsA|gi|30844172,33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (18|153l|gi|24376132,20|153l|gi|30249584,53|1cnsA|gi|2129928,3|1cnsA|gi|7435351,27|153l|gi|34498066,8|153l|gi|38074252,105|1cnsA|gi|31126701) (21|153l|gi|23099593,82|1cnsA|gi|3334147,19|153l|gi|34497489,28|153l|gi|15793502,4|1cnsA|gi|17932710,24|153l|gi|23029257,111|1cnsA|gi|30844172,33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (153l) (18|153l|gi|24376132,20|153l|gi|30249584,53|1cnsA|gi|2129928,3|1cnsA|gi|7435351,27|153l|gi|34498066,8|153l|gi|38074252,105|1cnsA|gi|31126701,21|153l|gi|23099593,82|1cnsA|gi|3334147,19|153l|gi|34497489,28|153l|gi|15793502,4|1cnsA|gi|17932710,24|153l|gi|23029257,111|1cnsA|gi|30844172,33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (8|1cnsA|gi|584928) (153l,18|153l|gi|24376132,20|153l|gi|30249584,53|1cnsA|gi|2129928,3|1cnsA|gi|7435351,27|153l|gi|34498066,8|153l|gi|38074252,105|1cnsA|gi|31126701,21|153l|gi|23099593,82|1cnsA|gi|3334147,19|153l|gi|34497489,28|153l|gi|15793502,4|1cnsA|gi|17932710,24|153l|gi|23029257,111|1cnsA|gi|30844172,33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (14|153l|gi|9630157,77|1cnsA|gi|3892724) (8|1cnsA|gi|584928,153l,18|153l|gi|24376132,20|153l|gi|30249584,53|1cnsA|gi|2129928,3|1cnsA|gi|7435351,27|153l|gi|34498066,8|153l|gi|38074252,105|1cnsA|gi|31126701,21|153l|gi|23099593,82|1cnsA|gi|3334147,19|153l|gi|34497489,28|153l|gi|15793502,4|1cnsA|gi|17932710,24|153l|gi|23029257,111|1cnsA|gi|30844172,33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (107|1cnsA|gi|116303,31|153l|gi|28870683,89|1cnsA|gi|1705813) (14|153l|gi|9630157,77|1cnsA|gi|3892724,8|1cnsA|gi|584928,153l,18|153l|gi|24376132,20|153l|gi|30249584,53|1cnsA|gi|2129928,3|1cnsA|gi|7435351,27|153l|gi|34498066,8|153l|gi|38074252,105|1cnsA|gi|31126701,21|153l|gi|23099593,82|1cnsA|gi|3334147,19|153l|gi|34497489,28|153l|gi|15793502,4|1cnsA|gi|17932710,24|153l|gi|23029257,111|1cnsA|gi|30844172,33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345)
+Align: (10|153l|gi|28479179) (93|1cnsA|gi|7435361)
+Align: (110|1cnsA|gi|1705811) (10|153l|gi|28479179,93|1cnsA|gi|7435361)
+Align: (23|153l|gi|16078222) (76|1cnsA|gi|3126963)
+Align: (32|153l|gi|37678890) (2|1cnsA|gi|13548699)
+Align: (17|153l|gi|33352152) (32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (67|1cnsA|gi|33414050) (17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (104|1cnsA|gi|5880845) (67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (108|1cnsA|gi|7435357) (104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (1cnsA) (108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (7|1cnsA|gi|21426919) (1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (48|1cnsA|gi|3126965) (7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (30|153l|gi|20807364) (48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (9|153l|gi|31652255) (30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (12|153l|gi|15076560) (9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (7|153l|gi|20513547) (12|153l|gi|15076560,9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (22|153l|gi|20807357) (7|153l|gi|20513547,12|153l|gi|15076560,9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (94|1cnsA|gi|561873) (22|153l|gi|20807357,7|153l|gi|20513547,12|153l|gi|15076560,9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (106|1cnsA|gi|27372245) (94|1cnsA|gi|561873,22|153l|gi|20807357,7|153l|gi|20513547,12|153l|gi|15076560,9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (23|153l|gi|16078222,76|1cnsA|gi|3126963) (106|1cnsA|gi|27372245,94|1cnsA|gi|561873,22|153l|gi|20807357,7|153l|gi|20513547,12|153l|gi|15076560,9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (13|153l|gi|16418490) (23|153l|gi|16078222,76|1cnsA|gi|3126963,106|1cnsA|gi|27372245,94|1cnsA|gi|561873,22|153l|gi|20807357,7|153l|gi|20513547,12|153l|gi|15076560,9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (58|1cnsA|gi|30526289) (13|153l|gi|16418490,23|153l|gi|16078222,76|1cnsA|gi|3126963,106|1cnsA|gi|27372245,94|1cnsA|gi|561873,22|153l|gi|20807357,7|153l|gi|20513547,12|153l|gi|15076560,9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (110|1cnsA|gi|1705811,10|153l|gi|28479179,93|1cnsA|gi|7435361) (58|1cnsA|gi|30526289,13|153l|gi|16418490,23|153l|gi|16078222,76|1cnsA|gi|3126963,106|1cnsA|gi|27372245,94|1cnsA|gi|561873,22|153l|gi|20807357,7|153l|gi|20513547,12|153l|gi|15076560,9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (15|153l|gi|15615415) (110|1cnsA|gi|1705811,10|153l|gi|28479179,93|1cnsA|gi|7435361,58|1cnsA|gi|30526289,13|153l|gi|16418490,23|153l|gi|16078222,76|1cnsA|gi|3126963,106|1cnsA|gi|27372245,94|1cnsA|gi|561873,22|153l|gi|20807357,7|153l|gi|20513547,12|153l|gi|15076560,9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (26|153l|gi|22983872) (15|153l|gi|15615415,110|1cnsA|gi|1705811,10|153l|gi|28479179,93|1cnsA|gi|7435361,58|1cnsA|gi|30526289,13|153l|gi|16418490,23|153l|gi|16078222,76|1cnsA|gi|3126963,106|1cnsA|gi|27372245,94|1cnsA|gi|561873,22|153l|gi|20807357,7|153l|gi|20513547,12|153l|gi|15076560,9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (25|153l|gi|17545696) (26|153l|gi|22983872,15|153l|gi|15615415,110|1cnsA|gi|1705811,10|153l|gi|28479179,93|1cnsA|gi|7435361,58|1cnsA|gi|30526289,13|153l|gi|16418490,23|153l|gi|16078222,76|1cnsA|gi|3126963,106|1cnsA|gi|27372245,94|1cnsA|gi|561873,22|153l|gi|20807357,7|153l|gi|20513547,12|153l|gi|15076560,9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Align: (107|1cnsA|gi|116303,31|153l|gi|28870683,89|1cnsA|gi|1705813,14|153l|gi|9630157,77|1cnsA|gi|3892724,8|1cnsA|gi|584928,153l,18|153l|gi|24376132,20|153l|gi|30249584,53|1cnsA|gi|2129928,3|1cnsA|gi|7435351,27|153l|gi|34498066,8|153l|gi|38074252,105|1cnsA|gi|31126701,21|153l|gi|23099593,82|1cnsA|gi|3334147,19|153l|gi|34497489,28|153l|gi|15793502,4|1cnsA|gi|17932710,24|153l|gi|23029257,111|1cnsA|gi|30844172,33|1cnsA|gi|27526732,11|153l|gi|28372527,90|1cnsA|gi|166345) (25|153l|gi|17545696,26|153l|gi|22983872,15|153l|gi|15615415,110|1cnsA|gi|1705811,10|153l|gi|28479179,93|1cnsA|gi|7435361,58|1cnsA|gi|30526289,13|153l|gi|16418490,23|153l|gi|16078222,76|1cnsA|gi|3126963,106|1cnsA|gi|27372245,94|1cnsA|gi|561873,22|153l|gi|20807357,7|153l|gi|20513547,12|153l|gi|15076560,9|153l|gi|31652255,30|153l|gi|20807364,48|1cnsA|gi|3126965,7|1cnsA|gi|21426919,1cnsA,108|1cnsA|gi|7435357,104|1cnsA|gi|5880845,67|1cnsA|gi|33414050,17|153l|gi|33352152,32|153l|gi|37678890,2|1cnsA|gi|13548699)
+Elapsed time 00:00:00  Peak memory use   20 MB(-4%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   20 MB(-4%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   20 MB(-4%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   20 MB(-4%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   20 MB(-4%)  Iteration   2 Root alignment
+Anchor columns found       1
+DP area saved by anchors   44.8%
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   3 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   4 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   6 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   7 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   8 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   8 Refine biparts
+Finished Mon Feb 26 13:03:15 2018
+2018-02-26 13:03:15,462290084

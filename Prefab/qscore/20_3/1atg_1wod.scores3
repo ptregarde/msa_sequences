@@ -1,0 +1,4 @@
+Test=1atg_1wod.afa3;Ref=1atg_1wod;Seq=1atg;Q=0.8959
+Test=1atg_1wod.afa3;Ref=1atg_1wod;Seq=1wod;Q=0.8959
+Test=1atg_1wod.afa3;Ref=1atg_1wod;AvgQ=0.8959
+Test=1atg_1wod.afa3;Ref=1atg_1wod;Q=0.896;TC=0.896

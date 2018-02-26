@@ -1,0 +1,100 @@
+2018-02-26 12:41:17,482510302
+Started Mon Feb 26 12:41:17 2018
+../muscle3.8.31_i86linux64 -in BaliRef1.2/seq/BB12026.tfa -out BaliRef1.2/seq/BB12026.afa -distance1 kmer20_4 -loga BaliRef1.2/seq/BB12026.log -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_4
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+18 seqs, max length 402, avg  length 267
+Align: (TRPC_PYRAE) (TRPC_AERPE)
+Align: (TRPC_AQUAE) (1jcm_P)
+Align: (1vc4_A) (TRPC_HALVO)
+Align: (TRC1_STRCO) (1vc4_A,TRPC_HALVO)
+Align: (TRPC_BACAA) (TRPC_LACPL)
+Align: (TRC1_STRCO,1vc4_A,TRPC_HALVO) (TRPC_BACAA,TRPC_LACPL)
+Align: (TRPC_PSEAE) (TRPC_ARATH)
+Align: (TRC1_STRCO,1vc4_A,TRPC_HALVO,TRPC_BACAA,TRPC_LACPL) (TRPC_PSEAE,TRPC_ARATH)
+Align: (TRPC_AQUAE,1jcm_P) (TRC1_STRCO,1vc4_A,TRPC_HALVO,TRPC_BACAA,TRPC_LACPL,TRPC_PSEAE,TRPC_ARATH)
+Align: (TRPC_CLOAB) (TRPC_BACTN)
+Align: (1a53_) (TRPC_METJA)
+Align: (TRPC_CLOAB,TRPC_BACTN) (1a53_,TRPC_METJA)
+Align: (TRPC_AQUAE,1jcm_P,TRC1_STRCO,1vc4_A,TRPC_HALVO,TRPC_BACAA,TRPC_LACPL,TRPC_PSEAE,TRPC_ARATH) (TRPC_CLOAB,TRPC_BACTN,1a53_,TRPC_METJA)
+Align: (TRPC_STAAC) (TRPC_AQUAE,1jcm_P,TRC1_STRCO,1vc4_A,TRPC_HALVO,TRPC_BACAA,TRPC_LACPL,TRPC_PSEAE,TRPC_ARATH,TRPC_CLOAB,TRPC_BACTN,1a53_,TRPC_METJA)
+Align: (1i4n_A) (TRPC_STAAC,TRPC_AQUAE,1jcm_P,TRC1_STRCO,1vc4_A,TRPC_HALVO,TRPC_BACAA,TRPC_LACPL,TRPC_PSEAE,TRPC_ARATH,TRPC_CLOAB,TRPC_BACTN,1a53_,TRPC_METJA)
+Align: (TRPC_METTM) (1i4n_A,TRPC_STAAC,TRPC_AQUAE,1jcm_P,TRC1_STRCO,1vc4_A,TRPC_HALVO,TRPC_BACAA,TRPC_LACPL,TRPC_PSEAE,TRPC_ARATH,TRPC_CLOAB,TRPC_BACTN,1a53_,TRPC_METJA)
+Align: (TRPC_PYRAE,TRPC_AERPE) (TRPC_METTM,1i4n_A,TRPC_STAAC,TRPC_AQUAE,1jcm_P,TRC1_STRCO,1vc4_A,TRPC_HALVO,TRPC_BACAA,TRPC_LACPL,TRPC_PSEAE,TRPC_ARATH,TRPC_CLOAB,TRPC_BACTN,1a53_,TRPC_METJA)
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   2 Root alignment
+Anchor columns found       4
+DP area saved by anchors   71.5%
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   4 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   6 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   7 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   7 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   8 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   9 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  10 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  10 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  11 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  12 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  13 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  13 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  14 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  15 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  16 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  16 Refine biparts
+Finished Mon Feb 26 12:41:17 2018
+2018-02-26 12:41:17,712288209

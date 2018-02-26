@@ -1,0 +1,9 @@
+Test=BB12036.afa;Ref=BB12036;Seq=1zip_;Q=0.9712
+Test=BB12036.afa;Ref=BB12036;Seq=2ak2_;Q=0.9712
+Test=BB12036.afa;Ref=BB12036;Seq=2ak3_A;Q=0.9537
+Test=BB12036.afa;Ref=BB12036;Seq=1zak_A;Q=0.9681
+Test=BB12036.afa;Ref=BB12036;Seq=1qf9_A;Q=0.9681
+Test=BB12036.afa;Ref=BB12036;Seq=3adk_;Q=0.9712
+Test=BB12036.afa;Ref=BB12036;Seq=1uky_;Q=0.9660
+Test=BB12036.afa;Ref=BB12036;AvgQ=0.9671
+Test=BB12036.afa;Ref=BB12036;Q=0.967;TC=0.932;Cline=0.882;Modeler=0.804

@@ -1,0 +1,122 @@
+2018-02-26 13:00:36,400816500
+Started Mon Feb 26 13:00:36 2018
+../muscle3.8.31_i86linux64 -in Prefab/seq/1fggA_1fgxA.fasta -out Prefab/seq/1fggA_1fgxA.afa -distance1 kmer20_4 -loga Prefab/seq/1fggA_1fgxA.log -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_4
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+50 seqs, max length 319, avg  length 245
+Align: (63|1fgxA|gi|27714325) (67|1fgxA|gi|26329203)
+Align: (73|1fgxA|gi|25050824) (69|1fgxA|gi|28466981)
+Align: (63|1fgxA|gi|27714325,67|1fgxA|gi|26329203) (73|1fgxA|gi|25050824,69|1fgxA|gi|28466981)
+Align: (35|1fggA|gi|10177610) (37|1fggA|gi|7270638)
+Align: (26|1fggA|gi|24662583) (31|1fggA|gi|21288838)
+Align: (28|1fggA|gi|16183105) (29|1fggA|gi|21298178)
+Align: (26|1fggA|gi|24662583,31|1fggA|gi|21288838) (28|1fggA|gi|16183105,29|1fggA|gi|21298178)
+Align: (32|1fggA|gi|3875496) (30|1fggA|gi|7507531)
+Align: (25|1fggA|gi|3879855) (32|1fggA|gi|3875496,30|1fggA|gi|7507531)
+Align: (33|1fggA|gi|3875099) (25|1fggA|gi|3879855,32|1fggA|gi|3875496,30|1fggA|gi|7507531)
+Align: (21|1fggA|gi|14285357) (13|1fggA|gi|21295640)
+Align: (1fggA) (44|1fggA|gi|24421162)
+Align: (14|1fggA|gi|18916810) (1fggA,44|1fggA|gi|24421162)
+Align: (8|1fggA|gi|26334371) (14|1fggA|gi|18916810,1fggA,44|1fggA|gi|24421162)
+Align: (21|1fggA|gi|14285357,13|1fggA|gi|21295640) (8|1fggA|gi|26334371,14|1fggA|gi|18916810,1fggA,44|1fggA|gi|24421162)
+Align: (16|1fggA|gi|18029233) (21|1fggA|gi|14285357,13|1fggA|gi|21295640,8|1fggA|gi|26334371,14|1fggA|gi|18916810,1fggA,44|1fggA|gi|24421162)
+Align: (22|1fggA|gi|2497043) (16|1fggA|gi|18029233,21|1fggA|gi|14285357,13|1fggA|gi|21295640,8|1fggA|gi|26334371,14|1fggA|gi|18916810,1fggA,44|1fggA|gi|24421162)
+Align: (33|1fggA|gi|3875099,25|1fggA|gi|3879855,32|1fggA|gi|3875496,30|1fggA|gi|7507531) (22|1fggA|gi|2497043,16|1fggA|gi|18029233,21|1fggA|gi|14285357,13|1fggA|gi|21295640,8|1fggA|gi|26334371,14|1fggA|gi|18916810,1fggA,44|1fggA|gi|24421162)
+Align: (26|1fggA|gi|24662583,31|1fggA|gi|21288838,28|1fggA|gi|16183105,29|1fggA|gi|21298178) (33|1fggA|gi|3875099,25|1fggA|gi|3879855,32|1fggA|gi|3875496,30|1fggA|gi|7507531,22|1fggA|gi|2497043,16|1fggA|gi|18029233,21|1fggA|gi|14285357,13|1fggA|gi|21295640,8|1fggA|gi|26334371,14|1fggA|gi|18916810,1fggA,44|1fggA|gi|24421162)
+Align: (34|1fggA|gi|1002670) (26|1fggA|gi|24662583,31|1fggA|gi|21288838,28|1fggA|gi|16183105,29|1fggA|gi|21298178,33|1fggA|gi|3875099,25|1fggA|gi|3879855,32|1fggA|gi|3875496,30|1fggA|gi|7507531,22|1fggA|gi|2497043,16|1fggA|gi|18029233,21|1fggA|gi|14285357,13|1fggA|gi|21295640,8|1fggA|gi|26334371,14|1fggA|gi|18916810,1fggA,44|1fggA|gi|24421162)
+Align: (43|1fggA|gi|16973326) (45|1fggA|gi|4371292)
+Align: (24|1fggA|gi|21592380) (39|1fggA|gi|20279481)
+Align: (43|1fggA|gi|16973326,45|1fggA|gi|4371292) (24|1fggA|gi|21592380,39|1fggA|gi|20279481)
+Align: (36|1fggA|gi|21104737) (43|1fggA|gi|16973326,45|1fggA|gi|4371292,24|1fggA|gi|21592380,39|1fggA|gi|20279481)
+Align: (2|1fggA|gi|28269427) (36|1fggA|gi|21104737,43|1fggA|gi|16973326,45|1fggA|gi|4371292,24|1fggA|gi|21592380,39|1fggA|gi|20279481)
+Align: (34|1fggA|gi|1002670,26|1fggA|gi|24662583,31|1fggA|gi|21288838,28|1fggA|gi|16183105,29|1fggA|gi|21298178,33|1fggA|gi|3875099,25|1fggA|gi|3879855,32|1fggA|gi|3875496,30|1fggA|gi|7507531,22|1fggA|gi|2497043,16|1fggA|gi|18029233,21|1fggA|gi|14285357,13|1fggA|gi|21295640,8|1fggA|gi|26334371,14|1fggA|gi|18916810,1fggA,44|1fggA|gi|24421162) (2|1fggA|gi|28269427,36|1fggA|gi|21104737,43|1fggA|gi|16973326,45|1fggA|gi|4371292,24|1fggA|gi|21592380,39|1fggA|gi|20279481)
+Align: (35|1fggA|gi|10177610,37|1fggA|gi|7270638) (34|1fggA|gi|1002670,26|1fggA|gi|24662583,31|1fggA|gi|21288838,28|1fggA|gi|16183105,29|1fggA|gi|21298178,33|1fggA|gi|3875099,25|1fggA|gi|3879855,32|1fggA|gi|3875496,30|1fggA|gi|7507531,22|1fggA|gi|2497043,16|1fggA|gi|18029233,21|1fggA|gi|14285357,13|1fggA|gi|21295640,8|1fggA|gi|26334371,14|1fggA|gi|18916810,1fggA,44|1fggA|gi|24421162,2|1fggA|gi|28269427,36|1fggA|gi|21104737,43|1fggA|gi|16973326,45|1fggA|gi|4371292,24|1fggA|gi|21592380,39|1fggA|gi|20279481)
+Align: (58|1fgxA|gi|7301247) (54|1fgxA|gi|20073183)
+Align: (72|1fgxA|gi|4008389) (58|1fgxA|gi|7301247,54|1fgxA|gi|20073183)
+Align: (45|1fgxA|gi|620088) (46|1fgxA|gi|1430853)
+Align: (50|1fgxA|gi|21300142) (51|1fgxA|gi|24650918)
+Align: (37|1fgxA|gi|4972702) (32|1fgxA|gi|21301072)
+Align: (29|1fgxA|gi|10800389) (37|1fgxA|gi|4972702,32|1fgxA|gi|21301072)
+Align: (50|1fgxA|gi|21300142,51|1fgxA|gi|24650918) (29|1fgxA|gi|10800389,37|1fgxA|gi|4972702,32|1fgxA|gi|21301072)
+Align: (39|1fgxA|gi|23396458) (34|1fgxA|gi|6651186)
+Align: (25|1fgxA|gi|2982510) (20|1fgxA|gi|27469877)
+Align: (76|1fgxA|gi|345648) (14|1fgxA|gi|1469908)
+Align: (1fgxA) (76|1fgxA|gi|345648,14|1fgxA|gi|1469908)
+Align: (21|1fgxA|gi|3132896) (1fgxA,76|1fgxA|gi|345648,14|1fgxA|gi|1469908)
+Align: (25|1fgxA|gi|2982510,20|1fgxA|gi|27469877) (21|1fgxA|gi|3132896,1fgxA,76|1fgxA|gi|345648,14|1fgxA|gi|1469908)
+Align: (22|1fgxA|gi|15488692) (25|1fgxA|gi|2982510,20|1fgxA|gi|27469877,21|1fgxA|gi|3132896,1fgxA,76|1fgxA|gi|345648,14|1fgxA|gi|1469908)
+Align: (24|1fgxA|gi|9229932) (22|1fgxA|gi|15488692,25|1fgxA|gi|2982510,20|1fgxA|gi|27469877,21|1fgxA|gi|3132896,1fgxA,76|1fgxA|gi|345648,14|1fgxA|gi|1469908)
+Align: (39|1fgxA|gi|23396458,34|1fgxA|gi|6651186) (24|1fgxA|gi|9229932,22|1fgxA|gi|15488692,25|1fgxA|gi|2982510,20|1fgxA|gi|27469877,21|1fgxA|gi|3132896,1fgxA,76|1fgxA|gi|345648,14|1fgxA|gi|1469908)
+Align: (50|1fgxA|gi|21300142,51|1fgxA|gi|24650918,29|1fgxA|gi|10800389,37|1fgxA|gi|4972702,32|1fgxA|gi|21301072) (39|1fgxA|gi|23396458,34|1fgxA|gi|6651186,24|1fgxA|gi|9229932,22|1fgxA|gi|15488692,25|1fgxA|gi|2982510,20|1fgxA|gi|27469877,21|1fgxA|gi|3132896,1fgxA,76|1fgxA|gi|345648,14|1fgxA|gi|1469908)
+Align: (45|1fgxA|gi|620088,46|1fgxA|gi|1430853) (50|1fgxA|gi|21300142,51|1fgxA|gi|24650918,29|1fgxA|gi|10800389,37|1fgxA|gi|4972702,32|1fgxA|gi|21301072,39|1fgxA|gi|23396458,34|1fgxA|gi|6651186,24|1fgxA|gi|9229932,22|1fgxA|gi|15488692,25|1fgxA|gi|2982510,20|1fgxA|gi|27469877,21|1fgxA|gi|3132896,1fgxA,76|1fgxA|gi|345648,14|1fgxA|gi|1469908)
+Align: (72|1fgxA|gi|4008389,58|1fgxA|gi|7301247,54|1fgxA|gi|20073183) (45|1fgxA|gi|620088,46|1fgxA|gi|1430853,50|1fgxA|gi|21300142,51|1fgxA|gi|24650918,29|1fgxA|gi|10800389,37|1fgxA|gi|4972702,32|1fgxA|gi|21301072,39|1fgxA|gi|23396458,34|1fgxA|gi|6651186,24|1fgxA|gi|9229932,22|1fgxA|gi|15488692,25|1fgxA|gi|2982510,20|1fgxA|gi|27469877,21|1fgxA|gi|3132896,1fgxA,76|1fgxA|gi|345648,14|1fgxA|gi|1469908)
+Align: (48|1fgxA|gi|1359573) (72|1fgxA|gi|4008389,58|1fgxA|gi|7301247,54|1fgxA|gi|20073183,45|1fgxA|gi|620088,46|1fgxA|gi|1430853,50|1fgxA|gi|21300142,51|1fgxA|gi|24650918,29|1fgxA|gi|10800389,37|1fgxA|gi|4972702,32|1fgxA|gi|21301072,39|1fgxA|gi|23396458,34|1fgxA|gi|6651186,24|1fgxA|gi|9229932,22|1fgxA|gi|15488692,25|1fgxA|gi|2982510,20|1fgxA|gi|27469877,21|1fgxA|gi|3132896,1fgxA,76|1fgxA|gi|345648,14|1fgxA|gi|1469908)
+Align: (35|1fggA|gi|10177610,37|1fggA|gi|7270638,34|1fggA|gi|1002670,26|1fggA|gi|24662583,31|1fggA|gi|21288838,28|1fggA|gi|16183105,29|1fggA|gi|21298178,33|1fggA|gi|3875099,25|1fggA|gi|3879855,32|1fggA|gi|3875496,30|1fggA|gi|7507531,22|1fggA|gi|2497043,16|1fggA|gi|18029233,21|1fggA|gi|14285357,13|1fggA|gi|21295640,8|1fggA|gi|26334371,14|1fggA|gi|18916810,1fggA,44|1fggA|gi|24421162,2|1fggA|gi|28269427,36|1fggA|gi|21104737,43|1fggA|gi|16973326,45|1fggA|gi|4371292,24|1fggA|gi|21592380,39|1fggA|gi|20279481) (48|1fgxA|gi|1359573,72|1fgxA|gi|4008389,58|1fgxA|gi|7301247,54|1fgxA|gi|20073183,45|1fgxA|gi|620088,46|1fgxA|gi|1430853,50|1fgxA|gi|21300142,51|1fgxA|gi|24650918,29|1fgxA|gi|10800389,37|1fgxA|gi|4972702,32|1fgxA|gi|21301072,39|1fgxA|gi|23396458,34|1fgxA|gi|6651186,24|1fgxA|gi|9229932,22|1fgxA|gi|15488692,25|1fgxA|gi|2982510,20|1fgxA|gi|27469877,21|1fgxA|gi|3132896,1fgxA,76|1fgxA|gi|345648,14|1fgxA|gi|1469908)
+Align: (63|1fgxA|gi|27714325,67|1fgxA|gi|26329203,73|1fgxA|gi|25050824,69|1fgxA|gi|28466981) (35|1fggA|gi|10177610,37|1fggA|gi|7270638,34|1fggA|gi|1002670,26|1fggA|gi|24662583,31|1fggA|gi|21288838,28|1fggA|gi|16183105,29|1fggA|gi|21298178,33|1fggA|gi|3875099,25|1fggA|gi|3879855,32|1fggA|gi|3875496,30|1fggA|gi|7507531,22|1fggA|gi|2497043,16|1fggA|gi|18029233,21|1fggA|gi|14285357,13|1fggA|gi|21295640,8|1fggA|gi|26334371,14|1fggA|gi|18916810,1fggA,44|1fggA|gi|24421162,2|1fggA|gi|28269427,36|1fggA|gi|21104737,43|1fggA|gi|16973326,45|1fggA|gi|4371292,24|1fggA|gi|21592380,39|1fggA|gi|20279481,48|1fgxA|gi|1359573,72|1fgxA|gi|4008389,58|1fgxA|gi|7301247,54|1fgxA|gi|20073183,45|1fgxA|gi|620088,46|1fgxA|gi|1430853,50|1fgxA|gi|21300142,51|1fgxA|gi|24650918,29|1fgxA|gi|10800389,37|1fgxA|gi|4972702,32|1fgxA|gi|21301072,39|1fgxA|gi|23396458,34|1fgxA|gi|6651186,24|1fgxA|gi|9229932,22|1fgxA|gi|15488692,25|1fgxA|gi|2982510,20|1fgxA|gi|27469877,21|1fgxA|gi|3132896,1fgxA,76|1fgxA|gi|345648,14|1fgxA|gi|1469908)
+Elapsed time 00:00:00  Peak memory use   20 MB(-4%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   20 MB(-4%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   21 MB(-4%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   21 MB(-4%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   21 MB(-4%)  Iteration   2 Root alignment
+Anchor columns found       1
+DP area saved by anchors   44.8%
+Elapsed time 00:00:00  Peak memory use   21 MB(-4%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   21 MB(-4%)  Iteration   4 Refine biparts
+Elapsed time 00:00:00  Peak memory use   21 MB(-4%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   21 MB(-4%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   21 MB(-4%)  Iteration   6 Refine biparts
+Elapsed time 00:00:01  Peak memory use   21 MB(-4%)  Iteration   7 Refine biparts
+Elapsed time 00:00:01  Peak memory use   21 MB(-4%)  Iteration   8 Refine biparts
+Elapsed time 00:00:01  Peak memory use   21 MB(-4%)  Iteration   8 Refine biparts
+Finished Mon Feb 26 13:00:37 2018
+2018-02-26 13:00:37,582527582

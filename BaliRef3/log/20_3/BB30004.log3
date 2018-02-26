@@ -1,0 +1,139 @@
+2018-02-26 12:52:47,368543499
+Started Mon Feb 26 12:52:47 2018
+../muscle3.8.31_i86linux64 -in BaliRef3/seq/BB30004.tfa -out BaliRef3/seq/BB30004.afa3 -distance1 kmer20_3 -loga BaliRef3/seq/BB30004.log3 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_3
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+50 seqs, max length 748, avg  length 497
+Elapsed time 00:00:00  Peak memory use   11 MB(-2%)  Iteration   1 
+Align: (Q10535) (P13711)
+Align: (Q00468) (Q10535,P13711)
+Align: (P50544) (P34355)
+Align: (P45953) (P50544,P34355)
+Align: (Q8jzn5) (P45953,P50544,P34355)
+Align: (Q9h845) (Q8jzn5,P45953,P50544,P34355)
+Align: (P48818) (Q9h845,Q8jzn5,P45953,P50544,P34355)
+Align: (P49748) (P48818,Q9h845,Q8jzn5,P45953,P50544,P34355)
+Align: (P76200) (Q9fs88)
+Align: (1buc_A) (P76200,Q9fs88)
+Align: (Q06319) (1buc_A,P76200,Q9fs88)
+Align: (P70584) (Q06319,1buc_A,P76200,Q9fs88)
+Align: (Q9dbl1) (P70584,Q06319,1buc_A,P76200,Q9fs88)
+Align: (1rx0_A) (Q9dbl1,P70584,Q06319,1buc_A,P76200,Q9fs88)
+Align: (P52042) (1rx0_A,Q9dbl1,P70584,Q06319,1buc_A,P76200,Q9fs88)
+Align: (P45954) (P52042,1rx0_A,Q9dbl1,P70584,Q06319,1buc_A,P76200,Q9fs88)
+Align: (P96879) (P45954,P52042,1rx0_A,Q9dbl1,P70584,Q06319,1buc_A,P76200,Q9fs88)
+Align: (P11356) (P96879,P45954,P52042,1rx0_A,Q9dbl1,P70584,Q06319,1buc_A,P76200,Q9fs88)
+Align: (P15650) (Q9fs87)
+Align: (P51174) (P12007)
+Align: (Q9z1n0) (P51174,P12007)
+Align: (1ivh_A) (Q9z1n0,P51174,P12007)
+Align: (P15650,Q9fs87) (1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P26440) (P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (1is2_A) (P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (Q9vsa3) (1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P11310) (Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (Q9d7b6) (P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P45952) (Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P08503) (P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (Q9swg0) (P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (Q22347) (Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (Q9kje8) (Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P45857) (Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P45867) (P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P41367) (P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (Q9uku7) (P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P46703) (Q9uku7,P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P79273) (P46703,Q9uku7,P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P06598) (P79273,P46703,Q9uku7,P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P15651) (P06598,P79273,P46703,Q9uku7,P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (Q07417) (P15651,P06598,P79273,P46703,Q9uku7,P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P05335) (Q07417,P15651,P06598,P79273,P46703,Q9uku7,P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P11356,P96879,P45954,P52042,1rx0_A,Q9dbl1,P70584,Q06319,1buc_A,P76200,Q9fs88) (P05335,Q07417,P15651,P06598,P79273,P46703,Q9uku7,P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P16219) (P11356,P96879,P45954,P52042,1rx0_A,Q9dbl1,P70584,Q06319,1buc_A,P76200,Q9fs88,P05335,Q07417,P15651,P06598,P79273,P46703,Q9uku7,P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P08790) (P16219,P11356,P96879,P45954,P52042,1rx0_A,Q9dbl1,P70584,Q06319,1buc_A,P76200,Q9fs88,P05335,Q07417,P15651,P06598,P79273,P46703,Q9uku7,P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (Q8hxy7) (P08790,P16219,P11356,P96879,P45954,P52042,1rx0_A,Q9dbl1,P70584,Q06319,1buc_A,P76200,Q9fs88,P05335,Q07417,P15651,P06598,P79273,P46703,Q9uku7,P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (P49748,P48818,Q9h845,Q8jzn5,P45953,P50544,P34355) (Q8hxy7,P08790,P16219,P11356,P96879,P45954,P52042,1rx0_A,Q9dbl1,P70584,Q06319,1buc_A,P76200,Q9fs88,P05335,Q07417,P15651,P06598,P79273,P46703,Q9uku7,P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Align: (Q00468,Q10535,P13711) (P49748,P48818,Q9h845,Q8jzn5,P45953,P50544,P34355,Q8hxy7,P08790,P16219,P11356,P96879,P45954,P52042,1rx0_A,Q9dbl1,P70584,Q06319,1buc_A,P76200,Q9fs88,P05335,Q07417,P15651,P06598,P79273,P46703,Q9uku7,P41367,P45867,P45857,Q9kje8,Q22347,Q9swg0,P08503,P45952,Q9d7b6,P11310,Q9vsa3,1is2_A,P26440,P15650,Q9fs87,1ivh_A,Q9z1n0,P51174,P12007)
+Elapsed time 00:00:00  Peak memory use   32 MB(-7%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   32 MB(-7%)  Iteration   1 Root alignment
+Elapsed time 00:00:01  Peak memory use   32 MB(-7%)  Iteration   2 Refine tree
+Elapsed time 00:00:01  Peak memory use   32 MB(-7%)  Iteration   2 Root alignment
+Elapsed time 00:00:01  Peak memory use   32 MB(-7%)  Iteration   2 Root alignment
+Anchor columns found       8
+DP area saved by anchors   77.8%
+Elapsed time 00:00:01  Peak memory use   32 MB(-7%)  Iteration   3 Refine biparts
+Elapsed time 00:00:01  Peak memory use   32 MB(-7%)  Iteration   4 Refine biparts
+Elapsed time 00:00:01  Peak memory use   32 MB(-7%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   32 MB(-7%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   32 MB(-7%)  Iteration   6 Refine biparts
+Elapsed time 00:00:01  Peak memory use   32 MB(-7%)  Iteration   7 Refine biparts
+Elapsed time 00:00:01  Peak memory use   32 MB(-7%)  Iteration   8 Refine biparts
+Elapsed time 00:00:01  Peak memory use   32 MB(-7%)  Iteration   9 Refine biparts
+Elapsed time 00:00:01  Peak memory use   32 MB(-7%)  Iteration  10 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  11 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  12 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  12 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  13 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  14 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  15 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  16 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  17 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  18 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  18 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  19 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  20 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  21 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  22 Refine biparts
+Elapsed time 00:00:02  Peak memory use   32 MB(-7%)  Iteration  22 Refine biparts
+Finished Mon Feb 26 12:52:49 2018
+2018-02-26 12:52:49,697071312

@@ -1,0 +1,99 @@
+2018-02-26 12:57:52,317239898
+Started Mon Feb 26 12:57:52 2018
+../muscle3.8.31_i86linux64 -in Ox/seq/12s108.fasta -out Ox/seq/12s108.afa -distance1 kmer20_3 -loga Ox/seq/12s108.log -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_3
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+26 seqs, max length 124, avg  length 118
+Elapsed time 00:00:00  Peak memory use   11 MB(-2%)  Iteration   1 
+Align: (1teth-1-DOMAK) (2cgrh-1-DOMAK)
+Align: (1mfa-2-DOMAK) (1teth-1-DOMAK,2cgrh-1-DOMAK)
+Align: (1igjb-1-DOMAK) (1dbah-1-DOMAK)
+Align: (1lmke-1-AS) (1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1nmah-1-AUTO.1) (1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK) (1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1mfbh-1-DOMAK) (1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1fpth-1-AUTO.1) (1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (6fabh-1-DOMAK) (1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1fbih-1-AUTO.1) (6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1mlbb-1-AUTO.1) (1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1eapb-1-AUTO.1) (1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1ncah-1-DOMAK) (1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1figh-1-DOMAK) (1ncah-1-DOMAK,1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1ncdh-1-DOMAK) (1figh-1-DOMAK,1ncah-1-DOMAK,1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1bbjh-1-DOMAK) (1ncdh-1-DOMAK,1figh-1-DOMAK,1ncah-1-DOMAK,1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1mrfh-1-AUTO.2) (1bbjh-1-DOMAK,1ncdh-1-DOMAK,1figh-1-DOMAK,1ncah-1-DOMAK,1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1jhlh-1-DOMAK) (1mrfh-1-AUTO.2,1bbjh-1-DOMAK,1ncdh-1-DOMAK,1figh-1-DOMAK,1ncah-1-DOMAK,1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1iaih-1-AUTO.1) (1jhlh-1-DOMAK,1mrfh-1-AUTO.2,1bbjh-1-DOMAK,1ncdh-1-DOMAK,1figh-1-DOMAK,1ncah-1-DOMAK,1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (2iffh-1-AUTO.2) (1iaih-1-AUTO.1,1jhlh-1-DOMAK,1mrfh-1-AUTO.2,1bbjh-1-DOMAK,1ncdh-1-DOMAK,1figh-1-DOMAK,1ncah-1-DOMAK,1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1forh-1-DOMAK) (2iffh-1-AUTO.2,1iaih-1-AUTO.1,1jhlh-1-DOMAK,1mrfh-1-AUTO.2,1bbjh-1-DOMAK,1ncdh-1-DOMAK,1figh-1-DOMAK,1ncah-1-DOMAK,1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1rmfh-1-AUTO.1) (1forh-1-DOMAK,2iffh-1-AUTO.2,1iaih-1-AUTO.1,1jhlh-1-DOMAK,1mrfh-1-AUTO.2,1bbjh-1-DOMAK,1ncdh-1-DOMAK,1figh-1-DOMAK,1ncah-1-DOMAK,1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (2f19h-1-DOMAK) (1rmfh-1-AUTO.1,1forh-1-DOMAK,2iffh-1-AUTO.2,1iaih-1-AUTO.1,1jhlh-1-DOMAK,1mrfh-1-AUTO.2,1bbjh-1-DOMAK,1ncdh-1-DOMAK,1figh-1-DOMAK,1ncah-1-DOMAK,1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1jelh-1-DOMAK) (2f19h-1-DOMAK,1rmfh-1-AUTO.1,1forh-1-DOMAK,2iffh-1-AUTO.2,1iaih-1-AUTO.1,1jhlh-1-DOMAK,1mrfh-1-AUTO.2,1bbjh-1-DOMAK,1ncdh-1-DOMAK,1figh-1-DOMAK,1ncah-1-DOMAK,1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Align: (1plgh-1-AUTO.1) (1jelh-1-DOMAK,2f19h-1-DOMAK,1rmfh-1-AUTO.1,1forh-1-DOMAK,2iffh-1-AUTO.2,1iaih-1-AUTO.1,1jhlh-1-DOMAK,1mrfh-1-AUTO.2,1bbjh-1-DOMAK,1ncdh-1-DOMAK,1figh-1-DOMAK,1ncah-1-DOMAK,1eapb-1-AUTO.1,1mlbb-1-AUTO.1,1fbih-1-AUTO.1,6fabh-1-DOMAK,1fpth-1-AUTO.1,1mfbh-1-DOMAK,1mfa-2-DOMAK,1teth-1-DOMAK,2cgrh-1-DOMAK,1nmah-1-AUTO.1,1lmke-1-AS,1igjb-1-DOMAK,1dbah-1-DOMAK)
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   2 Root alignment
+Anchor columns found       4
+DP area saved by anchors   75.3%
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   4 Refine biparts
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   6 Refine biparts
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   7 Refine biparts
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   8 Refine biparts
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   8 Refine biparts
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   9 Refine biparts
+Finished Mon Feb 26 12:57:52 2018
+2018-02-26 12:57:52,384395193

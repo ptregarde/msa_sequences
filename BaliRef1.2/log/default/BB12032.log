@@ -1,0 +1,80 @@
+2018-02-26 12:38:06,538500609
+Started Mon Feb 26 12:38:06 2018
+../muscle3.8.31_i86linux64 -in BaliRef1.2/seq/BB12032.tfa -out BaliRef1.2/seq/BB12032.afa -loga BaliRef1.2/seq/BB12032.log -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer6_6
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+9 seqs, max length 83, avg  length 66
+Elapsed time 00:00:00  Peak memory use   10 MB(-2%)  Iteration   1 K-mer dist pass 1
+Elapsed time 00:00:00  Peak memory use   10 MB(-2%)  Iteration   1 K-mer dist pass 2
+Align: (1cb9_A) (1drs_)
+Align: (1kba_A) (CADO_BUNCA)
+Align: (1cod_) (TXM2_NAJKA)
+Align: (1fas_) (1cod_,TXM2_NAJKA)
+Align: (1kba_A,CADO_BUNCA) (1fas_,1cod_,TXM2_NAJKA)
+Align: (NXL3_OPHHA) (1kba_A,CADO_BUNCA,1fas_,1cod_,TXM2_NAJKA)
+Align: (NXSH_BUNMU) (NXL3_OPHHA,1kba_A,CADO_BUNCA,1fas_,1cod_,TXM2_NAJKA)
+Align: (1cb9_A,1drs_) (NXSH_BUNMU,NXL3_OPHHA,1kba_A,CADO_BUNCA,1fas_,1cod_,TXM2_NAJKA)
+Elapsed time 00:00:00  Peak memory use   12 MB(-2%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   12 MB(-2%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   12 MB(-2%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   12 MB(-2%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   12 MB(-2%)  Iteration   2 Root alignment
+Anchor columns found       2
+DP area saved by anchors   61.5%
+Elapsed time 00:00:00  Peak memory use   12 MB(-2%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   12 MB(-2%)  Iteration   4 Refine biparts
+Elapsed time 00:00:00  Peak memory use   12 MB(-2%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   12 MB(-2%)  Iteration   6 Refine biparts
+Elapsed time 00:00:00  Peak memory use   12 MB(-2%)  Iteration   7 Refine biparts
+Finished Mon Feb 26 12:38:06 2018
+2018-02-26 12:38:06,554567403

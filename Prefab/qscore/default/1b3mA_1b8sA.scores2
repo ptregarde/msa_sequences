@@ -1,0 +1,4 @@
+Test=1b3mA_1b8sA.afa2;Ref=1b3mA_1b8sA;Seq=1b3mA;Q=0.1344
+Test=1b3mA_1b8sA.afa2;Ref=1b3mA_1b8sA;Seq=1b8sA;Q=0.1344
+Test=1b3mA_1b8sA.afa2;Ref=1b3mA_1b8sA;AvgQ=0.1344
+Test=1b3mA_1b8sA.afa2;Ref=1b3mA_1b8sA;Q=0.134;TC=0.134

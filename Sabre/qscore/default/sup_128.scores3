@@ -1,0 +1,13 @@
+Test=sup_128.afa3;Ref=sup_128;Seq=d1dpja_;Q=0.5541
+Test=sup_128.afa3;Ref=sup_128;Seq=d1fkna_;Q=0.4730
+Test=sup_128.afa3;Ref=sup_128;Seq=d1fmb__;Q=0.3865
+Test=sup_128.afa3;Ref=sup_128;Seq=d1idaa_;Q=0.3730
+Test=sup_128.afa3;Ref=sup_128;Seq=d1j71a_;Q=0.5432
+Test=sup_128.afa3;Ref=sup_128;Seq=d1kzka_;Q=0.3892
+Test=sup_128.afa3;Ref=sup_128;Seq=d1lf2a_;Q=0.5054
+Test=sup_128.afa3;Ref=sup_128;Seq=d1mpp__;Q=0.5541
+Test=sup_128.afa3;Ref=sup_128;Seq=d1nsoa_;Q=0.2946
+Test=sup_128.afa3;Ref=sup_128;Seq=d2apr__;Q=0.5541
+Test=sup_128.afa3;Ref=sup_128;Seq=d4fiv__;Q=0.2649
+Test=sup_128.afa3;Ref=sup_128;AvgQ=0.4447
+Test=sup_128.afa3;Ref=sup_128;Q=0.445;TC=0.135;Cline=0.144;Modeler=0.103

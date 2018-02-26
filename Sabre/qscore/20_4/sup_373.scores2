@@ -1,0 +1,14 @@
+Test=sup_373.afa2;Ref=sup_373;Seq=d1bhta2;Q=0.9474
+Test=sup_373.afa2;Ref=sup_373;Seq=d1h8pa1;Q=0.8804
+Test=sup_373.afa2;Ref=sup_373;Seq=d1h8pa2;Q=0.9282
+Test=sup_373.afa2;Ref=sup_373;Seq=d1i71a_;Q=0.9474
+Test=sup_373.afa2;Ref=sup_373;Seq=d1kdu__;Q=0.9474
+Test=sup_373.afa2;Ref=sup_373;Seq=d1ki0a2;Q=0.9474
+Test=sup_373.afa2;Ref=sup_373;Seq=d1ki0a3;Q=0.9474
+Test=sup_373.afa2;Ref=sup_373;Seq=d1l6ja3;Q=0.9282
+Test=sup_373.afa2;Ref=sup_373;Seq=d1l6ja5;Q=0.9282
+Test=sup_373.afa2;Ref=sup_373;Seq=d1pmla_;Q=0.9474
+Test=sup_373.afa2;Ref=sup_373;Seq=d2hpqp_;Q=0.9474
+Test=sup_373.afa2;Ref=sup_373;Seq=d5hpga_;Q=0.9474
+Test=sup_373.afa2;Ref=sup_373;AvgQ=0.9370
+Test=sup_373.afa2;Ref=sup_373;Q=0.937;TC=0.842;Cline=0.465;Modeler=0.291

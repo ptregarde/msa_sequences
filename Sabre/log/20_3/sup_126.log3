@@ -1,0 +1,108 @@
+2018-02-26 13:04:53,882575943
+Started Mon Feb 26 13:04:53 2018
+../muscle3.8.31_i86linux64 -in Sabre/seq/sup_126.fasta -out Sabre/seq/sup_126.afa3 -distance1 kmer20_3 -loga Sabre/seq/sup_126.log3 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_3
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+25 seqs, max length 299, avg  length 238
+Elapsed time 00:00:00  Peak memory use   11 MB(-2%)  Iteration   1 
+Align: (d1gvza_) (d1lvoa_)
+Align: (d1ltoa_) (d1gvza_,d1lvoa_)
+Align: (d1mzaa_) (d1ltoa_,d1gvza_,d1lvoa_)
+Align: (d1agja_) (d1fjsa_)
+Align: (d1bio__) (d1agja_,d1fjsa_)
+Align: (d1cgha_) (d1bio__,d1agja_,d1fjsa_)
+Align: (d1arb__) (d1cgha_,d1bio__,d1agja_,d1fjsa_)
+Align: (d1gvkb_) (d1arb__,d1cgha_,d1bio__,d1agja_,d1fjsa_)
+Align: (d1ddja_) (d1qtfa_)
+Align: (d1ekbb_) (d1ddja_,d1qtfa_)
+Align: (d1bqya_) (d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d1azza_) (d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d1klih_) (d1azza_,d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d1orfa_) (d1klih_,d1azza_,d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d1gvkb_,d1arb__,d1cgha_,d1bio__,d1agja_,d1fjsa_) (d1orfa_,d1klih_,d1azza_,d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d1rfna_) (d1gvkb_,d1arb__,d1cgha_,d1bio__,d1agja_,d1fjsa_,d1orfa_,d1klih_,d1azza_,d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d2hlca_) (d1rfna_,d1gvkb_,d1arb__,d1cgha_,d1bio__,d1agja_,d1fjsa_,d1orfa_,d1klih_,d1azza_,d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d1mzaa_,d1ltoa_,d1gvza_,d1lvoa_) (d2hlca_,d1rfna_,d1gvkb_,d1arb__,d1cgha_,d1bio__,d1agja_,d1fjsa_,d1orfa_,d1klih_,d1azza_,d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d1eaxa_) (d1mzaa_,d1ltoa_,d1gvza_,d1lvoa_,d2hlca_,d1rfna_,d1gvkb_,d1arb__,d1cgha_,d1bio__,d1agja_,d1fjsa_,d1orfa_,d1klih_,d1azza_,d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d1m9ua_) (d1eaxa_,d1mzaa_,d1ltoa_,d1gvza_,d1lvoa_,d2hlca_,d1rfna_,d1gvkb_,d1arb__,d1cgha_,d1bio__,d1agja_,d1fjsa_,d1orfa_,d1klih_,d1azza_,d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d1hj9a_) (d1m9ua_,d1eaxa_,d1mzaa_,d1ltoa_,d1gvza_,d1lvoa_,d2hlca_,d1rfna_,d1gvkb_,d1arb__,d1cgha_,d1bio__,d1agja_,d1fjsa_,d1orfa_,d1klih_,d1azza_,d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d1gdna_) (d1hj9a_,d1m9ua_,d1eaxa_,d1mzaa_,d1ltoa_,d1gvza_,d1lvoa_,d2hlca_,d1rfna_,d1gvkb_,d1arb__,d1cgha_,d1bio__,d1agja_,d1fjsa_,d1orfa_,d1klih_,d1azza_,d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d1sgt__) (d1gdna_,d1hj9a_,d1m9ua_,d1eaxa_,d1mzaa_,d1ltoa_,d1gvza_,d1lvoa_,d2hlca_,d1rfna_,d1gvkb_,d1arb__,d1cgha_,d1bio__,d1agja_,d1fjsa_,d1orfa_,d1klih_,d1azza_,d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Align: (d1eq9a_) (d1sgt__,d1gdna_,d1hj9a_,d1m9ua_,d1eaxa_,d1mzaa_,d1ltoa_,d1gvza_,d1lvoa_,d2hlca_,d1rfna_,d1gvkb_,d1arb__,d1cgha_,d1bio__,d1agja_,d1fjsa_,d1orfa_,d1klih_,d1azza_,d1bqya_,d1ekbb_,d1ddja_,d1qtfa_)
+Elapsed time 00:00:00  Peak memory use   17 MB(-4%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   17 MB(-4%)  Iteration   1 Root alignment
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration   2 Refine tree
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration   2 Root alignment
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration   2 Root alignment
+Anchor columns found       4
+DP area saved by anchors   76.8%
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration   3 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration   4 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration   6 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration   7 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration   7 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration   8 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration   9 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration  10 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration  10 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration  11 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration  12 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration  13 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration  13 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration  14 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration  15 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration  16 Refine biparts
+Elapsed time 00:00:01  Peak memory use   17 MB(-4%)  Iteration  16 Refine biparts
+Finished Mon Feb 26 13:04:54 2018
+2018-02-26 13:04:54,236651625

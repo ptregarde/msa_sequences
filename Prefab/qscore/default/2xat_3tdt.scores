@@ -1,0 +1,4 @@
+Test=2xat_3tdt.afa;Ref=2xat_3tdt;Seq=3tdt;Q=0.3302
+Test=2xat_3tdt.afa;Ref=2xat_3tdt;Seq=2xat;Q=0.3302
+Test=2xat_3tdt.afa;Ref=2xat_3tdt;AvgQ=0.3302
+Test=2xat_3tdt.afa;Ref=2xat_3tdt;Q=0.33;TC=0.33

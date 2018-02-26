@@ -1,0 +1,105 @@
+2018-02-26 12:45:28,499518425
+Started Mon Feb 26 12:45:28 2018
+../muscle3.8.31_i86linux64 -in BaliRef3/seq/BB30016.tfa -out BaliRef3/seq/BB30016.afa2 -distance1 kmer20_4 -loga BaliRef3/seq/BB30016.log2 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_4
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+37 seqs, max length 739, avg  length 291
+Align: (TRPO_PSEAE) (BVGA_BORPE)
+Align: (NARP_HAEIN) (NARP_ECOLI)
+Align: (1a04_A) (NARP_HAEIN,NARP_ECOLI)
+Align: (AGMR_PSEAE) (1a04_A,NARP_HAEIN,NARP_ECOLI)
+Align: (DEGU_BACSU) (DEGU_BACBR)
+Align: (YXJL_BACSU) (DEGU_BACSU,DEGU_BACBR)
+Align: (AGMR_PSEAE,1a04_A,NARP_HAEIN,NARP_ECOLI) (YXJL_BACSU,DEGU_BACSU,DEGU_BACBR)
+Align: (1neq_) (SFSB_ECOLI)
+Align: (1neq_,SFSB_ECOLI) (NER_BPD10)
+Align: (NER_HAEIN) (1neq_,SFSB_ECOLI,NER_BPD10)
+Align: (HM16_XENLA) (PO21_CHICK)
+Align: (PO22_HUMAN) (HM16_XENLA,PO21_CHICK)
+Align: (PDM2_DROME) (PO22_HUMAN,HM16_XENLA,PO21_CHICK)
+Align: (PDM1_DROME) (PDM2_DROME,PO22_HUMAN,HM16_XENLA,PO21_CHICK)
+Align: (SGF3_BOMMO) (CF1A_DROME)
+Align: (POU1_XENLA) (ZP50_BRARE)
+Align: (PO31_HUMAN) (POU1_XENLA,ZP50_BRARE)
+Align: (PO33_HUMAN) (PO33_BRARE)
+Align: (PO3A_XENLA) (PO32_HUMAN)
+Align: (ZP47_BRARE) (PO3A_XENLA,PO32_HUMAN)
+Align: (PO33_HUMAN,PO33_BRARE) (ZP47_BRARE,PO3A_XENLA,PO32_HUMAN)
+Align: (PO34_HUMAN) (PO33_HUMAN,PO33_BRARE,ZP47_BRARE,PO3A_XENLA,PO32_HUMAN)
+Align: (PO31_HUMAN,POU1_XENLA,ZP50_BRARE) (PO34_HUMAN,PO33_HUMAN,PO33_BRARE,ZP47_BRARE,PO3A_XENLA,PO32_HUMAN)
+Align: (SGF3_BOMMO,CF1A_DROME) (PO31_HUMAN,POU1_XENLA,ZP50_BRARE,PO34_HUMAN,PO33_HUMAN,PO33_BRARE,ZP47_BRARE,PO3A_XENLA,PO32_HUMAN)
+Align: (1au7_A) (SGF3_BOMMO,CF1A_DROME,PO31_HUMAN,POU1_XENLA,ZP50_BRARE,PO34_HUMAN,PO33_HUMAN,PO33_BRARE,ZP47_BRARE,PO3A_XENLA,PO32_HUMAN)
+Align: (HM06_CAEEL) (1au7_A,SGF3_BOMMO,CF1A_DROME,PO31_HUMAN,POU1_XENLA,ZP50_BRARE,PO34_HUMAN,PO33_HUMAN,PO33_BRARE,ZP47_BRARE,PO3A_XENLA,PO32_HUMAN)
+Align: (PDM1_DROME,PDM2_DROME,PO22_HUMAN,HM16_XENLA,PO21_CHICK) (HM06_CAEEL,1au7_A,SGF3_BOMMO,CF1A_DROME,PO31_HUMAN,POU1_XENLA,ZP50_BRARE,PO34_HUMAN,PO33_HUMAN,PO33_BRARE,ZP47_BRARE,PO3A_XENLA,PO32_HUMAN)
+Align: (PO51_BOVIN) (PDM1_DROME,PDM2_DROME,PO22_HUMAN,HM16_XENLA,PO21_CHICK,HM06_CAEEL,1au7_A,SGF3_BOMMO,CF1A_DROME,PO31_HUMAN,POU1_XENLA,ZP50_BRARE,PO34_HUMAN,PO33_HUMAN,PO33_BRARE,ZP47_BRARE,PO3A_XENLA,PO32_HUMAN)
+Align: (BR31_BRARE) (PO51_BOVIN,PDM1_DROME,PDM2_DROME,PO22_HUMAN,HM16_XENLA,PO21_CHICK,HM06_CAEEL,1au7_A,SGF3_BOMMO,CF1A_DROME,PO31_HUMAN,POU1_XENLA,ZP50_BRARE,PO34_HUMAN,PO33_HUMAN,PO33_BRARE,ZP47_BRARE,PO3A_XENLA,PO32_HUMAN)
+Align: (1r69_) (RCRO_BP434)
+Align: (RDGA_ERWCA) (PRTR_PSEAE)
+Align: (1r69_,RCRO_BP434) (RDGA_ERWCA,PRTR_PSEAE)
+Align: (BR31_BRARE,PO51_BOVIN,PDM1_DROME,PDM2_DROME,PO22_HUMAN,HM16_XENLA,PO21_CHICK,HM06_CAEEL,1au7_A,SGF3_BOMMO,CF1A_DROME,PO31_HUMAN,POU1_XENLA,ZP50_BRARE,PO34_HUMAN,PO33_HUMAN,PO33_BRARE,ZP47_BRARE,PO3A_XENLA,PO32_HUMAN) (1r69_,RCRO_BP434,RDGA_ERWCA,PRTR_PSEAE)
+Align: (NER_HAEIN,1neq_,SFSB_ECOLI,NER_BPD10) (BR31_BRARE,PO51_BOVIN,PDM1_DROME,PDM2_DROME,PO22_HUMAN,HM16_XENLA,PO21_CHICK,HM06_CAEEL,1au7_A,SGF3_BOMMO,CF1A_DROME,PO31_HUMAN,POU1_XENLA,ZP50_BRARE,PO34_HUMAN,PO33_HUMAN,PO33_BRARE,ZP47_BRARE,PO3A_XENLA,PO32_HUMAN,1r69_,RCRO_BP434,RDGA_ERWCA,PRTR_PSEAE)
+Align: (AGMR_PSEAE,1a04_A,NARP_HAEIN,NARP_ECOLI,YXJL_BACSU,DEGU_BACSU,DEGU_BACBR) (NER_HAEIN,1neq_,SFSB_ECOLI,NER_BPD10,BR31_BRARE,PO51_BOVIN,PDM1_DROME,PDM2_DROME,PO22_HUMAN,HM16_XENLA,PO21_CHICK,HM06_CAEEL,1au7_A,SGF3_BOMMO,CF1A_DROME,PO31_HUMAN,POU1_XENLA,ZP50_BRARE,PO34_HUMAN,PO33_HUMAN,PO33_BRARE,ZP47_BRARE,PO3A_XENLA,PO32_HUMAN,1r69_,RCRO_BP434,RDGA_ERWCA,PRTR_PSEAE)
+Align: (TRPO_PSEAE,BVGA_BORPE) (AGMR_PSEAE,1a04_A,NARP_HAEIN,NARP_ECOLI,YXJL_BACSU,DEGU_BACSU,DEGU_BACBR,NER_HAEIN,1neq_,SFSB_ECOLI,NER_BPD10,BR31_BRARE,PO51_BOVIN,PDM1_DROME,PDM2_DROME,PO22_HUMAN,HM16_XENLA,PO21_CHICK,HM06_CAEEL,1au7_A,SGF3_BOMMO,CF1A_DROME,PO31_HUMAN,POU1_XENLA,ZP50_BRARE,PO34_HUMAN,PO33_HUMAN,PO33_BRARE,ZP47_BRARE,PO3A_XENLA,PO32_HUMAN,1r69_,RCRO_BP434,RDGA_ERWCA,PRTR_PSEAE)
+Elapsed time 00:00:00  Peak memory use   21 MB(-4%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   21 MB(-4%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   21 MB(-4%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   21 MB(-4%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   21 MB(-4%)  Iteration   2 Root alignment
+Anchor columns found       0
+DP area saved by anchors   0.0 %
+Elapsed time 00:00:01  Peak memory use   21 MB(-4%)  Iteration   3 Refine biparts
+Elapsed time 00:00:02  Peak memory use   21 MB(-4%)  Iteration   4 Refine biparts
+Elapsed time 00:00:03  Peak memory use   21 MB(-4%)  Iteration   5 Refine biparts
+Elapsed time 00:00:03  Peak memory use   21 MB(-4%)  Iteration   5 Refine biparts
+Finished Mon Feb 26 12:45:31 2018
+2018-02-26 12:45:31,385580654

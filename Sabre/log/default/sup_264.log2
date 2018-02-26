@@ -1,0 +1,88 @@
+2018-02-26 12:32:09,117868327
+Started Mon Feb 26 12:32:09 2018
+../muscle3.8.31_i86linux64 -in Sabre/seq/sup_264.fasta -out Sabre/seq/sup_264.afa2 -loga Sabre/seq/sup_264.log2 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer6_6
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+14 seqs, max length 204, avg  length 120
+Elapsed time 00:00:00  Peak memory use   10 MB(-2%)  Iteration   1 K-mer dist pass 1
+Elapsed time 00:00:00  Peak memory use   10 MB(-2%)  Iteration   1 K-mer dist pass 2
+Align: (d1bkf__) (d1pbk__)
+Align: (d1fd9a_) (d1jvwa_)
+Align: (d1bkf__,d1pbk__) (d1fd9a_,d1jvwa_)
+Align: (d1j6ya_) (d1pina2)
+Align: (d1eq3a_) (d1j6ya_,d1pina2)
+Align: (d1jnsa_) (d1m5ya2)
+Align: (d1m5ya3) (d1jnsa_,d1m5ya2)
+Align: (d1eq3a_,d1j6ya_,d1pina2) (d1m5ya3,d1jnsa_,d1m5ya2)
+Align: (d1ix5a_) (d1eq3a_,d1j6ya_,d1pina2,d1m5ya3,d1jnsa_,d1m5ya2)
+Align: (d1bkf__,d1pbk__,d1fd9a_,d1jvwa_) (d1ix5a_,d1eq3a_,d1j6ya_,d1pina2,d1m5ya3,d1jnsa_,d1m5ya2)
+Align: (d1l1pa_) (d1bkf__,d1pbk__,d1fd9a_,d1jvwa_,d1ix5a_,d1eq3a_,d1j6ya_,d1pina2,d1m5ya3,d1jnsa_,d1m5ya2)
+Align: (d1hxva_) (d1l1pa_,d1bkf__,d1pbk__,d1fd9a_,d1jvwa_,d1ix5a_,d1eq3a_,d1j6ya_,d1pina2,d1m5ya3,d1jnsa_,d1m5ya2)
+Align: (d1kt1a3) (d1hxva_,d1l1pa_,d1bkf__,d1pbk__,d1fd9a_,d1jvwa_,d1ix5a_,d1eq3a_,d1j6ya_,d1pina2,d1m5ya3,d1jnsa_,d1m5ya2)
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   2 Root alignment
+Anchor columns found       1
+DP area saved by anchors   47.1%
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   4 Refine biparts
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   6 Refine biparts
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   7 Refine biparts
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   8 Refine biparts
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   8 Refine biparts
+Finished Mon Feb 26 12:32:09 2018
+2018-02-26 12:32:09,207768348

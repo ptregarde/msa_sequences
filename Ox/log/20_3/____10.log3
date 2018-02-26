@@ -1,0 +1,89 @@
+2018-02-26 12:57:58,924126616
+Started Mon Feb 26 12:57:58 2018
+../muscle3.8.31_i86linux64 -in Ox/seq/____10.fasta -out Ox/seq/____10.afa3 -distance1 kmer20_3 -loga Ox/seq/____10.log3 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_3
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+16 seqs, max length 181, avg  length 153
+Elapsed time 00:00:00  Peak memory use   11 MB(-2%)  Iteration   1 
+Align: (1bmda-1-GJB) (1ldne-1-GJB)
+Align: (3ldh-1-GJB) (1bmda-1-GJB,1ldne-1-GJB)
+Align: (2ldx-1-GJB) (3ldh-1-GJB,1bmda-1-GJB,1ldne-1-GJB)
+Align: (4mdha-1-GJB) (5ldh-1-GJB)
+Align: (1pgq-1-AUTO.1) (4mdha-1-GJB,5ldh-1-GJB)
+Align: (2cmd-1-GJB) (1pgq-1-AUTO.1,4mdha-1-GJB,5ldh-1-GJB)
+Align: (1llc-1-GJB) (2cmd-1-GJB,1pgq-1-AUTO.1,4mdha-1-GJB,5ldh-1-GJB)
+Align: (1mldc-1-AUTO.1) (1llc-1-GJB,2cmd-1-GJB,1pgq-1-AUTO.1,4mdha-1-GJB,5ldh-1-GJB)
+Align: (1hlpa-1-AUTO.1) (1mldc-1-AUTO.1,1llc-1-GJB,2cmd-1-GJB,1pgq-1-AUTO.1,4mdha-1-GJB,5ldh-1-GJB)
+Align: (9ldba-1-GJB) (1hlpa-1-AUTO.1,1mldc-1-AUTO.1,1llc-1-GJB,2cmd-1-GJB,1pgq-1-AUTO.1,4mdha-1-GJB,5ldh-1-GJB)
+Align: (1ldm-1-GJB) (9ldba-1-GJB,1hlpa-1-AUTO.1,1mldc-1-AUTO.1,1llc-1-GJB,2cmd-1-GJB,1pgq-1-AUTO.1,4mdha-1-GJB,5ldh-1-GJB)
+Align: (1llda-1-GJB) (1ldm-1-GJB,9ldba-1-GJB,1hlpa-1-AUTO.1,1mldc-1-AUTO.1,1llc-1-GJB,2cmd-1-GJB,1pgq-1-AUTO.1,4mdha-1-GJB,5ldh-1-GJB)
+Align: (2ldx-1-GJB,3ldh-1-GJB,1bmda-1-GJB,1ldne-1-GJB) (1llda-1-GJB,1ldm-1-GJB,9ldba-1-GJB,1hlpa-1-AUTO.1,1mldc-1-AUTO.1,1llc-1-GJB,2cmd-1-GJB,1pgq-1-AUTO.1,4mdha-1-GJB,5ldh-1-GJB)
+Align: (1hyha-1-AUTO.1) (2ldx-1-GJB,3ldh-1-GJB,1bmda-1-GJB,1ldne-1-GJB,1llda-1-GJB,1ldm-1-GJB,9ldba-1-GJB,1hlpa-1-AUTO.1,1mldc-1-AUTO.1,1llc-1-GJB,2cmd-1-GJB,1pgq-1-AUTO.1,4mdha-1-GJB,5ldh-1-GJB)
+Align: (1hyhc-1-AUTO.1) (1hyha-1-AUTO.1,2ldx-1-GJB,3ldh-1-GJB,1bmda-1-GJB,1ldne-1-GJB,1llda-1-GJB,1ldm-1-GJB,9ldba-1-GJB,1hlpa-1-AUTO.1,1mldc-1-AUTO.1,1llc-1-GJB,2cmd-1-GJB,1pgq-1-AUTO.1,4mdha-1-GJB,5ldh-1-GJB)
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   2 Root alignment
+Anchor columns found       2
+DP area saved by anchors   47.8%
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   4 Refine biparts
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   14 MB(-3%)  Iteration   6 Refine biparts
+Elapsed time 00:00:01  Peak memory use   14 MB(-3%)  Iteration   7 Refine biparts
+Elapsed time 00:00:01  Peak memory use   14 MB(-3%)  Iteration   7 Refine biparts
+Elapsed time 00:00:01  Peak memory use   14 MB(-3%)  Iteration   8 Refine biparts
+Elapsed time 00:00:01  Peak memory use   14 MB(-3%)  Iteration   9 Refine biparts
+Finished Mon Feb 26 12:57:59 2018
+2018-02-26 12:57:59,019592711

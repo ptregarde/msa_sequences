@@ -1,0 +1,130 @@
+2018-02-26 12:29:21,861369546
+Started Mon Feb 26 12:29:21 2018
+../muscle3.8.31_i86linux64 -in Prefab/seq/1atg_1wod.fasta -out Prefab/seq/1atg_1wod.afa2 -loga Prefab/seq/1atg_1wod.log2 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer6_6
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+50 seqs, max length 271, avg  length 232
+Elapsed time 00:00:00  Peak memory use   10 MB(-2%)  Iteration   1 K-mer dist pass 1
+Elapsed time 00:00:00  Peak memory use   10 MB(-2%)  Iteration   1 K-mer dist pass 2
+Align: (17|1atg|gi|25011226) (34|1atg|gi|21904499)
+Align: (20|1atg|gi|16413251) (17|1atg|gi|25011226,34|1atg|gi|21904499)
+Align: (24|1atg|gi|21431815) (25|1atg|gi|23473283)
+Align: (20|1atg|gi|16413251,17|1atg|gi|25011226,34|1atg|gi|21904499) (24|1atg|gi|21431815,25|1atg|gi|23473283)
+Align: (9|1atg|gi|18145749) (7|1wod|gi|18145749)
+Align: (15|1atg|gi|11350603) (18|1atg|gi|23471654)
+Align: (31|1atg|gi|25304525) (15|1atg|gi|11350603,18|1atg|gi|23471654)
+Align: (1atg) (31|1atg|gi|25304525,15|1atg|gi|11350603,18|1atg|gi|23471654)
+Align: (16|1wod|gi|15157753) (24|1wod|gi|15075952)
+Align: (28|1wod|gi|14022223) (16|1wod|gi|15157753,24|1wod|gi|15075952)
+Align: (18|1wod|gi|17298546) (28|1wod|gi|14022223,16|1wod|gi|15157753,24|1wod|gi|15075952)
+Align: (9|1wod|gi|21109708) (18|1wod|gi|17298546,28|1wod|gi|14022223,16|1wod|gi|15157753,24|1wod|gi|15075952)
+Align: (30|1atg|gi|24350173) (11|1wod|gi|24350173)
+Align: (28|1atg|gi|16419287) (1wod)
+Align: (17|1wod|gi|22126914) (28|1atg|gi|16419287,1wod)
+Align: (30|1atg|gi|24350173,11|1wod|gi|24350173) (17|1wod|gi|22126914,28|1atg|gi|16419287,1wod)
+Align: (27|1wod|gi|15602609) (30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod)
+Align: (15|1wod|gi|22968321) (27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod)
+Align: (30|1wod|gi|23110354) (15|1wod|gi|22968321,27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod)
+Align: (19|1wod|gi|9658146) (30|1wod|gi|23110354,15|1wod|gi|22968321,27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod)
+Align: (9|1wod|gi|21109708,18|1wod|gi|17298546,28|1wod|gi|14022223,16|1wod|gi|15157753,24|1wod|gi|15075952) (19|1wod|gi|9658146,30|1wod|gi|23110354,15|1wod|gi|22968321,27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod)
+Align: (31|1wod|gi|23054429) (9|1wod|gi|21109708,18|1wod|gi|17298546,28|1wod|gi|14022223,16|1wod|gi|15157753,24|1wod|gi|15075952,19|1wod|gi|9658146,30|1wod|gi|23110354,15|1wod|gi|22968321,27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod)
+Align: (12|1atg|gi|22989896) (23|1wod|gi|22989896)
+Align: (8|1atg|gi|22986663) (29|1wod|gi|22986663)
+Align: (10|1atg|gi|22978861) (8|1atg|gi|22986663,29|1wod|gi|22986663)
+Align: (11|1atg|gi|17430573) (10|1atg|gi|22978861,8|1atg|gi|22986663,29|1wod|gi|22986663)
+Align: (12|1atg|gi|22989896,23|1wod|gi|22989896) (11|1atg|gi|17430573,10|1atg|gi|22978861,8|1atg|gi|22986663,29|1wod|gi|22986663)
+Align: (7|1atg|gi|21226828) (22|1wod|gi|21226828)
+Align: (5|1atg|gi|23051395) (14|1wod|gi|23051395)
+Align: (3|1atg|gi|19915078) (8|1wod|gi|19915078)
+Align: (3|1atg|gi|19915078,8|1wod|gi|19915078) (13|1wod|gi|23051150)
+Align: (5|1atg|gi|23051395,14|1wod|gi|23051395) (3|1atg|gi|19915078,8|1wod|gi|19915078,13|1wod|gi|23051150)
+Align: (7|1atg|gi|21226828,22|1wod|gi|21226828) (5|1atg|gi|23051395,14|1wod|gi|23051395,3|1atg|gi|19915078,8|1wod|gi|19915078,13|1wod|gi|23051150)
+Align: (16|1atg|gi|23042129) (20|1wod|gi|23042129)
+Align: (21|1atg|gi|16331978) (25|1wod|gi|16331978)
+Align: (14|1atg|gi|23128884) (21|1wod|gi|23128884)
+Align: (23|1atg|gi|25304553) (14|1atg|gi|23128884,21|1wod|gi|23128884)
+Align: (21|1atg|gi|16331978,25|1wod|gi|16331978) (23|1atg|gi|25304553,14|1atg|gi|23128884,21|1wod|gi|23128884)
+Align: (16|1atg|gi|23042129,20|1wod|gi|23042129) (21|1atg|gi|16331978,25|1wod|gi|16331978,23|1atg|gi|25304553,14|1atg|gi|23128884,21|1wod|gi|23128884)
+Align: (7|1atg|gi|21226828,22|1wod|gi|21226828,5|1atg|gi|23051395,14|1wod|gi|23051395,3|1atg|gi|19915078,8|1wod|gi|19915078,13|1wod|gi|23051150) (16|1atg|gi|23042129,20|1wod|gi|23042129,21|1atg|gi|16331978,25|1wod|gi|16331978,23|1atg|gi|25304553,14|1atg|gi|23128884,21|1wod|gi|23128884)
+Align: (12|1atg|gi|22989896,23|1wod|gi|22989896,11|1atg|gi|17430573,10|1atg|gi|22978861,8|1atg|gi|22986663,29|1wod|gi|22986663) (7|1atg|gi|21226828,22|1wod|gi|21226828,5|1atg|gi|23051395,14|1wod|gi|23051395,3|1atg|gi|19915078,8|1wod|gi|19915078,13|1wod|gi|23051150,16|1atg|gi|23042129,20|1wod|gi|23042129,21|1atg|gi|16331978,25|1wod|gi|16331978,23|1atg|gi|25304553,14|1atg|gi|23128884,21|1wod|gi|23128884)
+Align: (31|1wod|gi|23054429,9|1wod|gi|21109708,18|1wod|gi|17298546,28|1wod|gi|14022223,16|1wod|gi|15157753,24|1wod|gi|15075952,19|1wod|gi|9658146,30|1wod|gi|23110354,15|1wod|gi|22968321,27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod) (12|1atg|gi|22989896,23|1wod|gi|22989896,11|1atg|gi|17430573,10|1atg|gi|22978861,8|1atg|gi|22986663,29|1wod|gi|22986663,7|1atg|gi|21226828,22|1wod|gi|21226828,5|1atg|gi|23051395,14|1wod|gi|23051395,3|1atg|gi|19915078,8|1wod|gi|19915078,13|1wod|gi|23051150,16|1atg|gi|23042129,20|1wod|gi|23042129,21|1atg|gi|16331978,25|1wod|gi|16331978,23|1atg|gi|25304553,14|1atg|gi|23128884,21|1wod|gi|23128884)
+Align: (26|1wod|gi|16080391) (31|1wod|gi|23054429,9|1wod|gi|21109708,18|1wod|gi|17298546,28|1wod|gi|14022223,16|1wod|gi|15157753,24|1wod|gi|15075952,19|1wod|gi|9658146,30|1wod|gi|23110354,15|1wod|gi|22968321,27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod,12|1atg|gi|22989896,23|1wod|gi|22989896,11|1atg|gi|17430573,10|1atg|gi|22978861,8|1atg|gi|22986663,29|1wod|gi|22986663,7|1atg|gi|21226828,22|1wod|gi|21226828,5|1atg|gi|23051395,14|1wod|gi|23051395,3|1atg|gi|19915078,8|1wod|gi|19915078,13|1wod|gi|23051150,16|1atg|gi|23042129,20|1wod|gi|23042129,21|1atg|gi|16331978,25|1wod|gi|16331978,23|1atg|gi|25304553,14|1atg|gi|23128884,21|1wod|gi|23128884)
+Align: (1atg,31|1atg|gi|25304525,15|1atg|gi|11350603,18|1atg|gi|23471654) (26|1wod|gi|16080391,31|1wod|gi|23054429,9|1wod|gi|21109708,18|1wod|gi|17298546,28|1wod|gi|14022223,16|1wod|gi|15157753,24|1wod|gi|15075952,19|1wod|gi|9658146,30|1wod|gi|23110354,15|1wod|gi|22968321,27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod,12|1atg|gi|22989896,23|1wod|gi|22989896,11|1atg|gi|17430573,10|1atg|gi|22978861,8|1atg|gi|22986663,29|1wod|gi|22986663,7|1atg|gi|21226828,22|1wod|gi|21226828,5|1atg|gi|23051395,14|1wod|gi|23051395,3|1atg|gi|19915078,8|1wod|gi|19915078,13|1wod|gi|23051150,16|1atg|gi|23042129,20|1wod|gi|23042129,21|1atg|gi|16331978,25|1wod|gi|16331978,23|1atg|gi|25304553,14|1atg|gi|23128884,21|1wod|gi|23128884)
+Align: (13|1atg|gi|22971118) (1atg,31|1atg|gi|25304525,15|1atg|gi|11350603,18|1atg|gi|23471654,26|1wod|gi|16080391,31|1wod|gi|23054429,9|1wod|gi|21109708,18|1wod|gi|17298546,28|1wod|gi|14022223,16|1wod|gi|15157753,24|1wod|gi|15075952,19|1wod|gi|9658146,30|1wod|gi|23110354,15|1wod|gi|22968321,27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod,12|1atg|gi|22989896,23|1wod|gi|22989896,11|1atg|gi|17430573,10|1atg|gi|22978861,8|1atg|gi|22986663,29|1wod|gi|22986663,7|1atg|gi|21226828,22|1wod|gi|21226828,5|1atg|gi|23051395,14|1wod|gi|23051395,3|1atg|gi|19915078,8|1wod|gi|19915078,13|1wod|gi|23051150,16|1atg|gi|23042129,20|1wod|gi|23042129,21|1atg|gi|16331978,25|1wod|gi|16331978,23|1atg|gi|25304553,14|1atg|gi|23128884,21|1wod|gi|23128884)
+Align: (2|1wod|gi|15140224) (13|1atg|gi|22971118,1atg,31|1atg|gi|25304525,15|1atg|gi|11350603,18|1atg|gi|23471654,26|1wod|gi|16080391,31|1wod|gi|23054429,9|1wod|gi|21109708,18|1wod|gi|17298546,28|1wod|gi|14022223,16|1wod|gi|15157753,24|1wod|gi|15075952,19|1wod|gi|9658146,30|1wod|gi|23110354,15|1wod|gi|22968321,27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod,12|1atg|gi|22989896,23|1wod|gi|22989896,11|1atg|gi|17430573,10|1atg|gi|22978861,8|1atg|gi|22986663,29|1wod|gi|22986663,7|1atg|gi|21226828,22|1wod|gi|21226828,5|1atg|gi|23051395,14|1wod|gi|23051395,3|1atg|gi|19915078,8|1wod|gi|19915078,13|1wod|gi|23051150,16|1atg|gi|23042129,20|1wod|gi|23042129,21|1atg|gi|16331978,25|1wod|gi|16331978,23|1atg|gi|25304553,14|1atg|gi|23128884,21|1wod|gi|23128884)
+Align: (9|1atg|gi|18145749,7|1wod|gi|18145749) (2|1wod|gi|15140224,13|1atg|gi|22971118,1atg,31|1atg|gi|25304525,15|1atg|gi|11350603,18|1atg|gi|23471654,26|1wod|gi|16080391,31|1wod|gi|23054429,9|1wod|gi|21109708,18|1wod|gi|17298546,28|1wod|gi|14022223,16|1wod|gi|15157753,24|1wod|gi|15075952,19|1wod|gi|9658146,30|1wod|gi|23110354,15|1wod|gi|22968321,27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod,12|1atg|gi|22989896,23|1wod|gi|22989896,11|1atg|gi|17430573,10|1atg|gi|22978861,8|1atg|gi|22986663,29|1wod|gi|22986663,7|1atg|gi|21226828,22|1wod|gi|21226828,5|1atg|gi|23051395,14|1wod|gi|23051395,3|1atg|gi|19915078,8|1wod|gi|19915078,13|1wod|gi|23051150,16|1atg|gi|23042129,20|1wod|gi|23042129,21|1atg|gi|16331978,25|1wod|gi|16331978,23|1atg|gi|25304553,14|1atg|gi|23128884,21|1wod|gi|23128884)
+Align: (20|1atg|gi|16413251,17|1atg|gi|25011226,34|1atg|gi|21904499,24|1atg|gi|21431815,25|1atg|gi|23473283) (9|1atg|gi|18145749,7|1wod|gi|18145749,2|1wod|gi|15140224,13|1atg|gi|22971118,1atg,31|1atg|gi|25304525,15|1atg|gi|11350603,18|1atg|gi|23471654,26|1wod|gi|16080391,31|1wod|gi|23054429,9|1wod|gi|21109708,18|1wod|gi|17298546,28|1wod|gi|14022223,16|1wod|gi|15157753,24|1wod|gi|15075952,19|1wod|gi|9658146,30|1wod|gi|23110354,15|1wod|gi|22968321,27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod,12|1atg|gi|22989896,23|1wod|gi|22989896,11|1atg|gi|17430573,10|1atg|gi|22978861,8|1atg|gi|22986663,29|1wod|gi|22986663,7|1atg|gi|21226828,22|1wod|gi|21226828,5|1atg|gi|23051395,14|1wod|gi|23051395,3|1atg|gi|19915078,8|1wod|gi|19915078,13|1wod|gi|23051150,16|1atg|gi|23042129,20|1wod|gi|23042129,21|1atg|gi|16331978,25|1wod|gi|16331978,23|1atg|gi|25304553,14|1atg|gi|23128884,21|1wod|gi|23128884)
+Align: (2|1atg|gi|11277207) (20|1atg|gi|16413251,17|1atg|gi|25011226,34|1atg|gi|21904499,24|1atg|gi|21431815,25|1atg|gi|23473283,9|1atg|gi|18145749,7|1wod|gi|18145749,2|1wod|gi|15140224,13|1atg|gi|22971118,1atg,31|1atg|gi|25304525,15|1atg|gi|11350603,18|1atg|gi|23471654,26|1wod|gi|16080391,31|1wod|gi|23054429,9|1wod|gi|21109708,18|1wod|gi|17298546,28|1wod|gi|14022223,16|1wod|gi|15157753,24|1wod|gi|15075952,19|1wod|gi|9658146,30|1wod|gi|23110354,15|1wod|gi|22968321,27|1wod|gi|15602609,30|1atg|gi|24350173,11|1wod|gi|24350173,17|1wod|gi|22126914,28|1atg|gi|16419287,1wod,12|1atg|gi|22989896,23|1wod|gi|22989896,11|1atg|gi|17430573,10|1atg|gi|22978861,8|1atg|gi|22986663,29|1wod|gi|22986663,7|1atg|gi|21226828,22|1wod|gi|21226828,5|1atg|gi|23051395,14|1wod|gi|23051395,3|1atg|gi|19915078,8|1wod|gi|19915078,13|1wod|gi|23051150,16|1atg|gi|23042129,20|1wod|gi|23042129,21|1atg|gi|16331978,25|1wod|gi|16331978,23|1atg|gi|25304553,14|1atg|gi|23128884,21|1wod|gi|23128884)
+Elapsed time 00:00:00  Peak memory use   19 MB(-4%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   19 MB(-4%)  Iteration   1 Root alignment
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   2 Refine tree
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   2 Root alignment
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   2 Root alignment
+Anchor columns found       4
+DP area saved by anchors   76.6%
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   3 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   4 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   6 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   7 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   7 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   8 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   9 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration  10 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration  11 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration  12 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration  12 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration  13 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration  14 Refine biparts
+Finished Mon Feb 26 12:29:22 2018
+2018-02-26 12:29:22,403363669

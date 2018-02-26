@@ -1,0 +1,128 @@
+2018-02-26 13:00:36,100526464
+Started Mon Feb 26 13:00:36 2018
+../muscle3.8.31_i86linux64 -in Prefab/seq/1btn_1dynA.fasta -out Prefab/seq/1btn_1dynA.afa -distance1 kmer20_4 -loga Prefab/seq/1btn_1dynA.log -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_4
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+50 seqs, max length 118, avg  length 101
+Align: (11|1btn|gi|15213122) (24|1btn|gi|7505762)
+Align: (1btn) (7|1btn|gi|23621044)
+Align: (12|1btn|gi|27676700) (1btn,7|1btn|gi|23621044)
+Align: (10|1btn|gi|9944861) (12|1btn|gi|27676700,1btn,7|1btn|gi|23621044)
+Align: (18|1btn|gi|21293489) (10|1btn|gi|9944861,12|1btn|gi|27676700,1btn,7|1btn|gi|23621044)
+Align: (11|1btn|gi|15213122,24|1btn|gi|7505762) (18|1btn|gi|21293489,10|1btn|gi|9944861,12|1btn|gi|27676700,1btn,7|1btn|gi|23621044)
+Align: (23|1btn|gi|13276625) (49|1btn|gi|10178314)
+Align: (27|1btn|gi|7662396) (23|1btn|gi|13276625,49|1btn|gi|10178314)
+Align: (25|1btn|gi|4097507) (27|1btn|gi|7662396,23|1btn|gi|13276625,49|1btn|gi|10178314)
+Align: (36|1btn|gi|28381427) (25|1btn|gi|4097507,27|1btn|gi|7662396,23|1btn|gi|13276625,49|1btn|gi|10178314)
+Align: (11|1btn|gi|15213122,24|1btn|gi|7505762,18|1btn|gi|21293489,10|1btn|gi|9944861,12|1btn|gi|27676700,1btn,7|1btn|gi|23621044) (36|1btn|gi|28381427,25|1btn|gi|4097507,27|1btn|gi|7662396,23|1btn|gi|13276625,49|1btn|gi|10178314)
+Align: (1dynA) (32|1dynA|gi|24642336)
+Align: (42|1dynA|gi|5739351) (1dynA,32|1dynA|gi|24642336)
+Align: (35|1btn|gi|10764776) (51|1dynA|gi|10764776)
+Align: (48|1btn|gi|27882517) (53|1dynA|gi|27882517)
+Align: (55|1dynA|gi|12654601) (48|1btn|gi|27882517,53|1dynA|gi|27882517)
+Align: (35|1btn|gi|10764776,51|1dynA|gi|10764776) (55|1dynA|gi|12654601,48|1btn|gi|27882517,53|1dynA|gi|27882517)
+Align: (24|1dynA|gi|27662666) (14|1dynA|gi|13124032)
+Align: (25|1dynA|gi|21298115) (24|1dynA|gi|27662666,14|1dynA|gi|13124032)
+Align: (46|1dynA|gi|4481795) (25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032)
+Align: (44|1dynA|gi|1688318) (46|1dynA|gi|4481795,25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032)
+Align: (33|1btn|gi|4589375) (44|1dynA|gi|1688318,46|1dynA|gi|4481795,25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032)
+Align: (47|1btn|gi|27882517) (52|1dynA|gi|27882517)
+Align: (34|1btn|gi|10764776) (50|1dynA|gi|10764776)
+Align: (47|1btn|gi|27882517,52|1dynA|gi|27882517) (34|1btn|gi|10764776,50|1dynA|gi|10764776)
+Align: (41|1btn|gi|24646685) (49|1dynA|gi|24646685)
+Align: (28|1btn|gi|18204000) (59|1dynA|gi|18204000)
+Align: (41|1btn|gi|24646685,49|1dynA|gi|24646685) (28|1btn|gi|18204000,59|1dynA|gi|18204000)
+Align: (31|1btn|gi|27660586) (45|1dynA|gi|27660586)
+Align: (22|1dynA|gi|28482210) (31|1btn|gi|27660586,45|1dynA|gi|27660586)
+Align: (41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000) (22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586)
+Align: (20|1btn|gi|21299994) (33|1dynA|gi|21299994)
+Align: (38|1btn|gi|24582118) (20|1btn|gi|21299994,33|1dynA|gi|21299994)
+Align: (58|1dynA|gi|27665434) (38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994)
+Align: (56|1dynA|gi|19697391) (63|1dynA|gi|19807777)
+Align: (58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994) (56|1dynA|gi|19697391,63|1dynA|gi|19807777)
+Align: (41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000,22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586) (58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994,56|1dynA|gi|19697391,63|1dynA|gi|19807777)
+Align: (47|1btn|gi|27882517,52|1dynA|gi|27882517,34|1btn|gi|10764776,50|1dynA|gi|10764776) (41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000,22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586,58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994,56|1dynA|gi|19697391,63|1dynA|gi|19807777)
+Align: (33|1btn|gi|4589375,44|1dynA|gi|1688318,46|1dynA|gi|4481795,25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032) (47|1btn|gi|27882517,52|1dynA|gi|27882517,34|1btn|gi|10764776,50|1dynA|gi|10764776,41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000,22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586,58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994,56|1dynA|gi|19697391,63|1dynA|gi|19807777)
+Align: (26|1dynA|gi|21749509) (33|1btn|gi|4589375,44|1dynA|gi|1688318,46|1dynA|gi|4481795,25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032,47|1btn|gi|27882517,52|1dynA|gi|27882517,34|1btn|gi|10764776,50|1dynA|gi|10764776,41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000,22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586,58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994,56|1dynA|gi|19697391,63|1dynA|gi|19807777)
+Align: (8|1dynA|gi|1177023) (26|1dynA|gi|21749509,33|1btn|gi|4589375,44|1dynA|gi|1688318,46|1dynA|gi|4481795,25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032,47|1btn|gi|27882517,52|1dynA|gi|27882517,34|1btn|gi|10764776,50|1dynA|gi|10764776,41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000,22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586,58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994,56|1dynA|gi|19697391,63|1dynA|gi|19807777)
+Align: (60|1dynA|gi|6687775) (8|1dynA|gi|1177023,26|1dynA|gi|21749509,33|1btn|gi|4589375,44|1dynA|gi|1688318,46|1dynA|gi|4481795,25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032,47|1btn|gi|27882517,52|1dynA|gi|27882517,34|1btn|gi|10764776,50|1dynA|gi|10764776,41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000,22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586,58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994,56|1dynA|gi|19697391,63|1dynA|gi|19807777)
+Align: (35|1btn|gi|10764776,51|1dynA|gi|10764776,55|1dynA|gi|12654601,48|1btn|gi|27882517,53|1dynA|gi|27882517) (60|1dynA|gi|6687775,8|1dynA|gi|1177023,26|1dynA|gi|21749509,33|1btn|gi|4589375,44|1dynA|gi|1688318,46|1dynA|gi|4481795,25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032,47|1btn|gi|27882517,52|1dynA|gi|27882517,34|1btn|gi|10764776,50|1dynA|gi|10764776,41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000,22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586,58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994,56|1dynA|gi|19697391,63|1dynA|gi|19807777)
+Align: (42|1dynA|gi|5739351,1dynA,32|1dynA|gi|24642336) (35|1btn|gi|10764776,51|1dynA|gi|10764776,55|1dynA|gi|12654601,48|1btn|gi|27882517,53|1dynA|gi|27882517,60|1dynA|gi|6687775,8|1dynA|gi|1177023,26|1dynA|gi|21749509,33|1btn|gi|4589375,44|1dynA|gi|1688318,46|1dynA|gi|4481795,25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032,47|1btn|gi|27882517,52|1dynA|gi|27882517,34|1btn|gi|10764776,50|1dynA|gi|10764776,41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000,22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586,58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994,56|1dynA|gi|19697391,63|1dynA|gi|19807777)
+Align: (11|1btn|gi|15213122,24|1btn|gi|7505762,18|1btn|gi|21293489,10|1btn|gi|9944861,12|1btn|gi|27676700,1btn,7|1btn|gi|23621044,36|1btn|gi|28381427,25|1btn|gi|4097507,27|1btn|gi|7662396,23|1btn|gi|13276625,49|1btn|gi|10178314) (42|1dynA|gi|5739351,1dynA,32|1dynA|gi|24642336,35|1btn|gi|10764776,51|1dynA|gi|10764776,55|1dynA|gi|12654601,48|1btn|gi|27882517,53|1dynA|gi|27882517,60|1dynA|gi|6687775,8|1dynA|gi|1177023,26|1dynA|gi|21749509,33|1btn|gi|4589375,44|1dynA|gi|1688318,46|1dynA|gi|4481795,25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032,47|1btn|gi|27882517,52|1dynA|gi|27882517,34|1btn|gi|10764776,50|1dynA|gi|10764776,41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000,22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586,58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994,56|1dynA|gi|19697391,63|1dynA|gi|19807777)
+Align: (43|1btn|gi|25152027) (11|1btn|gi|15213122,24|1btn|gi|7505762,18|1btn|gi|21293489,10|1btn|gi|9944861,12|1btn|gi|27676700,1btn,7|1btn|gi|23621044,36|1btn|gi|28381427,25|1btn|gi|4097507,27|1btn|gi|7662396,23|1btn|gi|13276625,49|1btn|gi|10178314,42|1dynA|gi|5739351,1dynA,32|1dynA|gi|24642336,35|1btn|gi|10764776,51|1dynA|gi|10764776,55|1dynA|gi|12654601,48|1btn|gi|27882517,53|1dynA|gi|27882517,60|1dynA|gi|6687775,8|1dynA|gi|1177023,26|1dynA|gi|21749509,33|1btn|gi|4589375,44|1dynA|gi|1688318,46|1dynA|gi|4481795,25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032,47|1btn|gi|27882517,52|1dynA|gi|27882517,34|1btn|gi|10764776,50|1dynA|gi|10764776,41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000,22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586,58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994,56|1dynA|gi|19697391,63|1dynA|gi|19807777)
+Align: (50|1btn|gi|20977541) (46|1btn|gi|27730089)
+Align: (43|1btn|gi|25152027,11|1btn|gi|15213122,24|1btn|gi|7505762,18|1btn|gi|21293489,10|1btn|gi|9944861,12|1btn|gi|27676700,1btn,7|1btn|gi|23621044,36|1btn|gi|28381427,25|1btn|gi|4097507,27|1btn|gi|7662396,23|1btn|gi|13276625,49|1btn|gi|10178314,42|1dynA|gi|5739351,1dynA,32|1dynA|gi|24642336,35|1btn|gi|10764776,51|1dynA|gi|10764776,55|1dynA|gi|12654601,48|1btn|gi|27882517,53|1dynA|gi|27882517,60|1dynA|gi|6687775,8|1dynA|gi|1177023,26|1dynA|gi|21749509,33|1btn|gi|4589375,44|1dynA|gi|1688318,46|1dynA|gi|4481795,25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032,47|1btn|gi|27882517,52|1dynA|gi|27882517,34|1btn|gi|10764776,50|1dynA|gi|10764776,41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000,22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586,58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994,56|1dynA|gi|19697391,63|1dynA|gi|19807777) (50|1btn|gi|20977541,46|1btn|gi|27730089)
+Align: (2|1dynA|gi|3645961) (43|1btn|gi|25152027,11|1btn|gi|15213122,24|1btn|gi|7505762,18|1btn|gi|21293489,10|1btn|gi|9944861,12|1btn|gi|27676700,1btn,7|1btn|gi|23621044,36|1btn|gi|28381427,25|1btn|gi|4097507,27|1btn|gi|7662396,23|1btn|gi|13276625,49|1btn|gi|10178314,42|1dynA|gi|5739351,1dynA,32|1dynA|gi|24642336,35|1btn|gi|10764776,51|1dynA|gi|10764776,55|1dynA|gi|12654601,48|1btn|gi|27882517,53|1dynA|gi|27882517,60|1dynA|gi|6687775,8|1dynA|gi|1177023,26|1dynA|gi|21749509,33|1btn|gi|4589375,44|1dynA|gi|1688318,46|1dynA|gi|4481795,25|1dynA|gi|21298115,24|1dynA|gi|27662666,14|1dynA|gi|13124032,47|1btn|gi|27882517,52|1dynA|gi|27882517,34|1btn|gi|10764776,50|1dynA|gi|10764776,41|1btn|gi|24646685,49|1dynA|gi|24646685,28|1btn|gi|18204000,59|1dynA|gi|18204000,22|1dynA|gi|28482210,31|1btn|gi|27660586,45|1dynA|gi|27660586,58|1dynA|gi|27665434,38|1btn|gi|24582118,20|1btn|gi|21299994,33|1dynA|gi|21299994,56|1dynA|gi|19697391,63|1dynA|gi|19807777,50|1btn|gi|20977541,46|1btn|gi|27730089)
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   2 Root alignment
+Anchor columns found       3
+DP area saved by anchors   71.0%
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   4 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   6 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   7 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   8 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   8 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   9 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  10 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  11 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  11 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  12 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  13 Refine biparts
+Finished Mon Feb 26 13:00:36 2018
+2018-02-26 13:00:36,400373902

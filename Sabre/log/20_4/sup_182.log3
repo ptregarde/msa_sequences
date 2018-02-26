@@ -1,0 +1,90 @@
+2018-02-26 13:05:49,959751891
+Started Mon Feb 26 13:05:49 2018
+../muscle3.8.31_i86linux64 -in Sabre/seq/sup_182.fasta -out Sabre/seq/sup_182.afa3 -distance1 kmer20_4 -loga Sabre/seq/sup_182.log3 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_4
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+14 seqs, max length 165, avg  length 148
+Align: (d1i7pa2) (d2cnd_2)
+Align: (d1ddga2) (d1ja1a3)
+Align: (d1f20a2) (d1ddga2,d1ja1a3)
+Align: (d1krha2) (d1f20a2,d1ddga2,d1ja1a3)
+Align: (d1que_2) (d1krha2,d1f20a2,d1ddga2,d1ja1a3)
+Align: (d1i7pa2,d2cnd_2) (d1que_2,d1krha2,d1f20a2,d1ddga2,d1ja1a3)
+Align: (d2pia_2) (d1i7pa2,d2cnd_2,d1que_2,d1krha2,d1f20a2,d1ddga2,d1ja1a3)
+Align: (d1gvha3) (d2pia_2,d1i7pa2,d2cnd_2,d1que_2,d1krha2,d1f20a2,d1ddga2,d1ja1a3)
+Align: (d1qfja2) (d1gvha3,d2pia_2,d1i7pa2,d2cnd_2,d1que_2,d1krha2,d1f20a2,d1ddga2,d1ja1a3)
+Align: (d1fdr_2) (d1qfja2,d1gvha3,d2pia_2,d1i7pa2,d2cnd_2,d1que_2,d1krha2,d1f20a2,d1ddga2,d1ja1a3)
+Align: (d1a8p_2) (d1fdr_2,d1qfja2,d1gvha3,d2pia_2,d1i7pa2,d2cnd_2,d1que_2,d1krha2,d1f20a2,d1ddga2,d1ja1a3)
+Align: (d1a8p_2,d1fdr_2,d1qfja2,d1gvha3,d2pia_2,d1i7pa2,d2cnd_2,d1que_2,d1krha2,d1f20a2,d1ddga2,d1ja1a3) (d1ep3b2)
+Align: (d1a8p_2,d1fdr_2,d1qfja2,d1gvha3,d2pia_2,d1i7pa2,d2cnd_2,d1que_2,d1krha2,d1f20a2,d1ddga2,d1ja1a3,d1ep3b2) (d1cqxa3)
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   2 Root alignment
+Anchor columns found       2
+DP area saved by anchors   57.6%
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   4 Refine biparts
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   13 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   13 MB(-3%)  Iteration   6 Refine biparts
+Elapsed time 00:00:01  Peak memory use   13 MB(-3%)  Iteration   7 Refine biparts
+Elapsed time 00:00:01  Peak memory use   13 MB(-3%)  Iteration   8 Refine biparts
+Elapsed time 00:00:01  Peak memory use   13 MB(-3%)  Iteration   8 Refine biparts
+Elapsed time 00:00:01  Peak memory use   13 MB(-3%)  Iteration   9 Refine biparts
+Elapsed time 00:00:01  Peak memory use   13 MB(-3%)  Iteration  10 Refine biparts
+Elapsed time 00:00:01  Peak memory use   13 MB(-3%)  Iteration  11 Refine biparts
+Elapsed time 00:00:01  Peak memory use   13 MB(-3%)  Iteration  11 Refine biparts
+Finished Mon Feb 26 13:05:50 2018
+2018-02-26 13:05:50,044387587

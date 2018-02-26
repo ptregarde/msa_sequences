@@ -1,0 +1,126 @@
+2018-02-26 12:30:03,642665636
+Started Mon Feb 26 12:30:03 2018
+../muscle3.8.31_i86linux64 -in Prefab/seq/1hssA_1bea.fasta -out Prefab/seq/1hssA_1bea.afa3 -loga Prefab/seq/1hssA_1bea.log3 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer6_6
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+50 seqs, max length 139, avg  length 110
+Elapsed time 00:00:00  Peak memory use   10 MB(-2%)  Iteration   1 K-mer dist pass 1
+Elapsed time 00:00:00  Peak memory use   10 MB(-2%)  Iteration   1 K-mer dist pass 2
+Align: (49|1hssA|gi|1084472) (67|1bea|gi|1084472)
+Align: (40|1hssA|gi|123970) (52|1bea|gi|123970)
+Align: (36|1hssA|gi|123966) (48|1bea|gi|7438308)
+Align: (1hssA) (51|1bea|gi|123963)
+Align: (36|1hssA|gi|123966,48|1bea|gi|7438308) (1hssA,51|1bea|gi|123963)
+Align: (40|1hssA|gi|123970,52|1bea|gi|123970) (36|1hssA|gi|123966,48|1bea|gi|7438308,1hssA,51|1bea|gi|123963)
+Align: (39|1hssA|gi|2506771) (54|1bea|gi|2506771)
+Align: (10|1hssA|gi|34900104) (24|1bea|gi|34900104)
+Align: (11|1hssA|gi|34900088) (38|1bea|gi|34900088)
+Align: (6|1hssA|gi|2118428) (9|1bea|gi|34900098)
+Align: (11|1hssA|gi|34900088,38|1bea|gi|34900088) (6|1hssA|gi|2118428,9|1bea|gi|34900098)
+Align: (10|1hssA|gi|34900104,24|1bea|gi|34900104) (11|1hssA|gi|34900088,38|1bea|gi|34900088,6|1hssA|gi|2118428,9|1bea|gi|34900098)
+Align: (65|1bea|gi|7438309) (10|1hssA|gi|34900104,24|1bea|gi|34900104,11|1hssA|gi|34900088,38|1bea|gi|34900088,6|1hssA|gi|2118428,9|1bea|gi|34900098)
+Align: (39|1hssA|gi|2506771,54|1bea|gi|2506771) (65|1bea|gi|7438309,10|1hssA|gi|34900104,24|1bea|gi|34900104,11|1hssA|gi|34900088,38|1bea|gi|34900088,6|1hssA|gi|2118428,9|1bea|gi|34900098)
+Align: (57|1hssA|gi|30038896) (91|1hssA|gi|10129694)
+Align: (48|1hssA|gi|4868127) (79|1bea|gi|4868127)
+Align: (47|1hssA|gi|7671688) (48|1hssA|gi|4868127,79|1bea|gi|4868127)
+Align: (57|1hssA|gi|30038896,91|1hssA|gi|10129694) (47|1hssA|gi|7671688,48|1hssA|gi|4868127,79|1bea|gi|4868127)
+Align: (87|1hssA|gi|3913900) (49|1bea|gi|3913900)
+Align: (93|1hssA|gi|225102) (50|1bea|gi|225102)
+Align: (43|1bea|gi|33146468) (93|1hssA|gi|225102,50|1bea|gi|225102)
+Align: (82|1hssA|gi|322863) (59|1bea|gi|322863)
+Align: (21|1hssA|gi|7438323) (31|1bea|gi|7438323)
+Align: (82|1hssA|gi|322863,59|1bea|gi|322863) (21|1hssA|gi|7438323,31|1bea|gi|7438323)
+Align: (75|1hssA|gi|9650762) (37|1bea|gi|20798981)
+Align: (23|1hssA|gi|2707916) (4|1bea|gi|2707922)
+Align: (30|1hssA|gi|16305146) (1bea)
+Align: (42|1hssA|gi|34900318) (27|1bea|gi|34900318)
+Align: (43|1hssA|gi|68848) (8|1bea|gi|68848)
+Align: (42|1hssA|gi|34900318,27|1bea|gi|34900318) (43|1hssA|gi|68848,8|1bea|gi|68848)
+Align: (30|1hssA|gi|16305146,1bea) (42|1hssA|gi|34900318,27|1bea|gi|34900318,43|1hssA|gi|68848,8|1bea|gi|68848)
+Align: (23|1hssA|gi|2707916,4|1bea|gi|2707922) (30|1hssA|gi|16305146,1bea,42|1hssA|gi|34900318,27|1bea|gi|34900318,43|1hssA|gi|68848,8|1bea|gi|68848)
+Align: (75|1hssA|gi|9650762,37|1bea|gi|20798981) (23|1hssA|gi|2707916,4|1bea|gi|2707922,30|1hssA|gi|16305146,1bea,42|1hssA|gi|34900318,27|1bea|gi|34900318,43|1hssA|gi|68848,8|1bea|gi|68848)
+Align: (82|1hssA|gi|322863,59|1bea|gi|322863,21|1hssA|gi|7438323,31|1bea|gi|7438323) (75|1hssA|gi|9650762,37|1bea|gi|20798981,23|1hssA|gi|2707916,4|1bea|gi|2707922,30|1hssA|gi|16305146,1bea,42|1hssA|gi|34900318,27|1bea|gi|34900318,43|1hssA|gi|68848,8|1bea|gi|68848)
+Align: (15|1hssA|gi|123956) (23|1bea|gi|123956)
+Align: (15|1hssA|gi|123956,23|1bea|gi|123956) (46|1hssA|gi|18955)
+Align: (19|1hssA|gi|123958) (30|1bea|gi|100771)
+Align: (65|1hssA|gi|585291) (42|1bea|gi|123957)
+Align: (19|1hssA|gi|123958,30|1bea|gi|100771) (65|1hssA|gi|585291,42|1bea|gi|123957)
+Align: (15|1hssA|gi|123956,23|1bea|gi|123956,46|1hssA|gi|18955) (19|1hssA|gi|123958,30|1bea|gi|100771,65|1hssA|gi|585291,42|1bea|gi|123957)
+Align: (2|1bea|gi|16305142) (15|1hssA|gi|123956,23|1bea|gi|123956,46|1hssA|gi|18955,19|1hssA|gi|123958,30|1bea|gi|100771,65|1hssA|gi|585291,42|1bea|gi|123957)
+Align: (82|1hssA|gi|322863,59|1bea|gi|322863,21|1hssA|gi|7438323,31|1bea|gi|7438323,75|1hssA|gi|9650762,37|1bea|gi|20798981,23|1hssA|gi|2707916,4|1bea|gi|2707922,30|1hssA|gi|16305146,1bea,42|1hssA|gi|34900318,27|1bea|gi|34900318,43|1hssA|gi|68848,8|1bea|gi|68848) (2|1bea|gi|16305142,15|1hssA|gi|123956,23|1bea|gi|123956,46|1hssA|gi|18955,19|1hssA|gi|123958,30|1bea|gi|100771,65|1hssA|gi|585291,42|1bea|gi|123957)
+Align: (43|1bea|gi|33146468,93|1hssA|gi|225102,50|1bea|gi|225102) (82|1hssA|gi|322863,59|1bea|gi|322863,21|1hssA|gi|7438323,31|1bea|gi|7438323,75|1hssA|gi|9650762,37|1bea|gi|20798981,23|1hssA|gi|2707916,4|1bea|gi|2707922,30|1hssA|gi|16305146,1bea,42|1hssA|gi|34900318,27|1bea|gi|34900318,43|1hssA|gi|68848,8|1bea|gi|68848,2|1bea|gi|16305142,15|1hssA|gi|123956,23|1bea|gi|123956,46|1hssA|gi|18955,19|1hssA|gi|123958,30|1bea|gi|100771,65|1hssA|gi|585291,42|1bea|gi|123957)
+Align: (87|1hssA|gi|3913900,49|1bea|gi|3913900) (43|1bea|gi|33146468,93|1hssA|gi|225102,50|1bea|gi|225102,82|1hssA|gi|322863,59|1bea|gi|322863,21|1hssA|gi|7438323,31|1bea|gi|7438323,75|1hssA|gi|9650762,37|1bea|gi|20798981,23|1hssA|gi|2707916,4|1bea|gi|2707922,30|1hssA|gi|16305146,1bea,42|1hssA|gi|34900318,27|1bea|gi|34900318,43|1hssA|gi|68848,8|1bea|gi|68848,2|1bea|gi|16305142,15|1hssA|gi|123956,23|1bea|gi|123956,46|1hssA|gi|18955,19|1hssA|gi|123958,30|1bea|gi|100771,65|1hssA|gi|585291,42|1bea|gi|123957)
+Align: (57|1hssA|gi|30038896,91|1hssA|gi|10129694,47|1hssA|gi|7671688,48|1hssA|gi|4868127,79|1bea|gi|4868127) (87|1hssA|gi|3913900,49|1bea|gi|3913900,43|1bea|gi|33146468,93|1hssA|gi|225102,50|1bea|gi|225102,82|1hssA|gi|322863,59|1bea|gi|322863,21|1hssA|gi|7438323,31|1bea|gi|7438323,75|1hssA|gi|9650762,37|1bea|gi|20798981,23|1hssA|gi|2707916,4|1bea|gi|2707922,30|1hssA|gi|16305146,1bea,42|1hssA|gi|34900318,27|1bea|gi|34900318,43|1hssA|gi|68848,8|1bea|gi|68848,2|1bea|gi|16305142,15|1hssA|gi|123956,23|1bea|gi|123956,46|1hssA|gi|18955,19|1hssA|gi|123958,30|1bea|gi|100771,65|1hssA|gi|585291,42|1bea|gi|123957)
+Align: (39|1hssA|gi|2506771,54|1bea|gi|2506771,65|1bea|gi|7438309,10|1hssA|gi|34900104,24|1bea|gi|34900104,11|1hssA|gi|34900088,38|1bea|gi|34900088,6|1hssA|gi|2118428,9|1bea|gi|34900098) (57|1hssA|gi|30038896,91|1hssA|gi|10129694,47|1hssA|gi|7671688,48|1hssA|gi|4868127,79|1bea|gi|4868127,87|1hssA|gi|3913900,49|1bea|gi|3913900,43|1bea|gi|33146468,93|1hssA|gi|225102,50|1bea|gi|225102,82|1hssA|gi|322863,59|1bea|gi|322863,21|1hssA|gi|7438323,31|1bea|gi|7438323,75|1hssA|gi|9650762,37|1bea|gi|20798981,23|1hssA|gi|2707916,4|1bea|gi|2707922,30|1hssA|gi|16305146,1bea,42|1hssA|gi|34900318,27|1bea|gi|34900318,43|1hssA|gi|68848,8|1bea|gi|68848,2|1bea|gi|16305142,15|1hssA|gi|123956,23|1bea|gi|123956,46|1hssA|gi|18955,19|1hssA|gi|123958,30|1bea|gi|100771,65|1hssA|gi|585291,42|1bea|gi|123957)
+Align: (40|1hssA|gi|123970,52|1bea|gi|123970,36|1hssA|gi|123966,48|1bea|gi|7438308,1hssA,51|1bea|gi|123963) (39|1hssA|gi|2506771,54|1bea|gi|2506771,65|1bea|gi|7438309,10|1hssA|gi|34900104,24|1bea|gi|34900104,11|1hssA|gi|34900088,38|1bea|gi|34900088,6|1hssA|gi|2118428,9|1bea|gi|34900098,57|1hssA|gi|30038896,91|1hssA|gi|10129694,47|1hssA|gi|7671688,48|1hssA|gi|4868127,79|1bea|gi|4868127,87|1hssA|gi|3913900,49|1bea|gi|3913900,43|1bea|gi|33146468,93|1hssA|gi|225102,50|1bea|gi|225102,82|1hssA|gi|322863,59|1bea|gi|322863,21|1hssA|gi|7438323,31|1bea|gi|7438323,75|1hssA|gi|9650762,37|1bea|gi|20798981,23|1hssA|gi|2707916,4|1bea|gi|2707922,30|1hssA|gi|16305146,1bea,42|1hssA|gi|34900318,27|1bea|gi|34900318,43|1hssA|gi|68848,8|1bea|gi|68848,2|1bea|gi|16305142,15|1hssA|gi|123956,23|1bea|gi|123956,46|1hssA|gi|18955,19|1hssA|gi|123958,30|1bea|gi|100771,65|1hssA|gi|585291,42|1bea|gi|123957)
+Align: (49|1hssA|gi|1084472,67|1bea|gi|1084472) (40|1hssA|gi|123970,52|1bea|gi|123970,36|1hssA|gi|123966,48|1bea|gi|7438308,1hssA,51|1bea|gi|123963,39|1hssA|gi|2506771,54|1bea|gi|2506771,65|1bea|gi|7438309,10|1hssA|gi|34900104,24|1bea|gi|34900104,11|1hssA|gi|34900088,38|1bea|gi|34900088,6|1hssA|gi|2118428,9|1bea|gi|34900098,57|1hssA|gi|30038896,91|1hssA|gi|10129694,47|1hssA|gi|7671688,48|1hssA|gi|4868127,79|1bea|gi|4868127,87|1hssA|gi|3913900,49|1bea|gi|3913900,43|1bea|gi|33146468,93|1hssA|gi|225102,50|1bea|gi|225102,82|1hssA|gi|322863,59|1bea|gi|322863,21|1hssA|gi|7438323,31|1bea|gi|7438323,75|1hssA|gi|9650762,37|1bea|gi|20798981,23|1hssA|gi|2707916,4|1bea|gi|2707922,30|1hssA|gi|16305146,1bea,42|1hssA|gi|34900318,27|1bea|gi|34900318,43|1hssA|gi|68848,8|1bea|gi|68848,2|1bea|gi|16305142,15|1hssA|gi|123956,23|1bea|gi|123956,46|1hssA|gi|18955,19|1hssA|gi|123958,30|1bea|gi|100771,65|1hssA|gi|585291,42|1bea|gi|123957)
+Align: (62|1bea|gi|2130113) (49|1hssA|gi|1084472,67|1bea|gi|1084472,40|1hssA|gi|123970,52|1bea|gi|123970,36|1hssA|gi|123966,48|1bea|gi|7438308,1hssA,51|1bea|gi|123963,39|1hssA|gi|2506771,54|1bea|gi|2506771,65|1bea|gi|7438309,10|1hssA|gi|34900104,24|1bea|gi|34900104,11|1hssA|gi|34900088,38|1bea|gi|34900088,6|1hssA|gi|2118428,9|1bea|gi|34900098,57|1hssA|gi|30038896,91|1hssA|gi|10129694,47|1hssA|gi|7671688,48|1hssA|gi|4868127,79|1bea|gi|4868127,87|1hssA|gi|3913900,49|1bea|gi|3913900,43|1bea|gi|33146468,93|1hssA|gi|225102,50|1bea|gi|225102,82|1hssA|gi|322863,59|1bea|gi|322863,21|1hssA|gi|7438323,31|1bea|gi|7438323,75|1hssA|gi|9650762,37|1bea|gi|20798981,23|1hssA|gi|2707916,4|1bea|gi|2707922,30|1hssA|gi|16305146,1bea,42|1hssA|gi|34900318,27|1bea|gi|34900318,43|1hssA|gi|68848,8|1bea|gi|68848,2|1bea|gi|16305142,15|1hssA|gi|123956,23|1bea|gi|123956,46|1hssA|gi|18955,19|1hssA|gi|123958,30|1bea|gi|100771,65|1hssA|gi|585291,42|1bea|gi|123957)
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   2 Root alignment
+Anchor columns found       2
+DP area saved by anchors   51.3%
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   4 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   6 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   7 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   7 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   8 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   9 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  10 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration  10 Refine biparts
+Finished Mon Feb 26 12:30:03 2018
+2018-02-26 12:30:03,931149086

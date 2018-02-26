@@ -1,0 +1,97 @@
+2018-02-26 12:52:59,224763046
+Started Mon Feb 26 12:52:59 2018
+../muscle3.8.31_i86linux64 -in BaliRef3/seq/BB30007.tfa -out BaliRef3/seq/BB30007.afa3 -distance1 kmer20_3 -loga BaliRef3/seq/BB30007.log3 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_3
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+24 seqs, max length 339, avg  length 140
+Elapsed time 00:00:00  Peak memory use   11 MB(-2%)  Iteration   1 
+Align: (1i7h_A) (FER_RHOPL)
+Align: (FER_BUCBP) (FER_LEUGL)
+Align: (PUTX_PSEPU) (FER_BUCBP,FER_LEUGL)
+Align: (FER_APHSA) (PUTX_PSEPU,FER_BUCBP,FER_LEUGL)
+Align: (FER3_MAIZE) (FER_APHSA,PUTX_PSEPU,FER_BUCBP,FER_LEUGL)
+Align: (FER_HAEIN) (FER3_MAIZE,FER_APHSA,PUTX_PSEPU,FER_BUCBP,FER_LEUGL)
+Align: (FER_BUCAI) (FER_HAEIN,FER3_MAIZE,FER_APHSA,PUTX_PSEPU,FER_BUCBP,FER_LEUGL)
+Align: (FER_MARPO) (FER_BUCAI,FER_HAEIN,FER3_MAIZE,FER_APHSA,PUTX_PSEPU,FER_BUCBP,FER_LEUGL)
+Align: (1i7h_A,FER_RHOPL) (FER_MARPO,FER_BUCAI,FER_HAEIN,FER3_MAIZE,FER_APHSA,PUTX_PSEPU,FER_BUCBP,FER_LEUGL)
+Align: (TERP_PSESP) (FER1_ANASP)
+Align: (FER1_RAPSA) (TERP_PSESP,FER1_ANASP)
+Align: (FER5_AQUAE) (ADX_CHICK)
+Align: (HCR_ECOLI) (FER5_AQUAE,ADX_CHICK)
+Align: (FER1_RAPSA,TERP_PSESP,FER1_ANASP) (HCR_ECOLI,FER5_AQUAE,ADX_CHICK)
+Align: (FDX2_RICCN) (YFAE_ECOLI)
+Align: (ADXH_DROME) (FDX2_RICCN,YFAE_ECOLI)
+Align: (1krh_A) (ADXH_DROME,FDX2_RICCN,YFAE_ECOLI)
+Align: (FER1_RAPSA,TERP_PSESP,FER1_ANASP,HCR_ECOLI,FER5_AQUAE,ADX_CHICK) (1krh_A,ADXH_DROME,FDX2_RICCN,YFAE_ECOLI)
+Align: (1i7h_A,FER_RHOPL,FER_MARPO,FER_BUCAI,FER_HAEIN,FER3_MAIZE,FER_APHSA,PUTX_PSEPU,FER_BUCBP,FER_LEUGL) (FER1_RAPSA,TERP_PSESP,FER1_ANASP,HCR_ECOLI,FER5_AQUAE,ADX_CHICK,1krh_A,ADXH_DROME,FDX2_RICCN,YFAE_ECOLI)
+Align: (FER_BUCAP) (1i7h_A,FER_RHOPL,FER_MARPO,FER_BUCAI,FER_HAEIN,FER3_MAIZE,FER_APHSA,PUTX_PSEPU,FER_BUCBP,FER_LEUGL,FER1_RAPSA,TERP_PSESP,FER1_ANASP,HCR_ECOLI,FER5_AQUAE,ADX_CHICK,1krh_A,ADXH_DROME,FDX2_RICCN,YFAE_ECOLI)
+Align: (CBDC_BURCE) (FER_BUCAP,1i7h_A,FER_RHOPL,FER_MARPO,FER_BUCAI,FER_HAEIN,FER3_MAIZE,FER_APHSA,PUTX_PSEPU,FER_BUCBP,FER_LEUGL,FER1_RAPSA,TERP_PSESP,FER1_ANASP,HCR_ECOLI,FER5_AQUAE,ADX_CHICK,1krh_A,ADXH_DROME,FDX2_RICCN,YFAE_ECOLI)
+Align: (FER_SPIMA) (CBDC_BURCE,FER_BUCAP,1i7h_A,FER_RHOPL,FER_MARPO,FER_BUCAI,FER_HAEIN,FER3_MAIZE,FER_APHSA,PUTX_PSEPU,FER_BUCBP,FER_LEUGL,FER1_RAPSA,TERP_PSESP,FER1_ANASP,HCR_ECOLI,FER5_AQUAE,ADX_CHICK,1krh_A,ADXH_DROME,FDX2_RICCN,YFAE_ECOLI)
+Align: (ADRX_YEAST) (FER_SPIMA,CBDC_BURCE,FER_BUCAP,1i7h_A,FER_RHOPL,FER_MARPO,FER_BUCAI,FER_HAEIN,FER3_MAIZE,FER_APHSA,PUTX_PSEPU,FER_BUCBP,FER_LEUGL,FER1_RAPSA,TERP_PSESP,FER1_ANASP,HCR_ECOLI,FER5_AQUAE,ADX_CHICK,1krh_A,ADXH_DROME,FDX2_RICCN,YFAE_ECOLI)
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   2 Root alignment
+Anchor columns found       2
+DP area saved by anchors   54.8%
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   4 Refine biparts
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   6 Refine biparts
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   7 Refine biparts
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   8 Refine biparts
+Elapsed time 00:00:00  Peak memory use   15 MB(-3%)  Iteration   9 Refine biparts
+Finished Mon Feb 26 12:52:59 2018
+2018-02-26 12:52:59,540415512

@@ -1,0 +1,81 @@
+2018-02-26 12:40:31,528697583
+Started Mon Feb 26 12:40:31 2018
+../muscle3.8.31_i86linux64 -in BaliRef1.2/seq/BB12015.tfa -out BaliRef1.2/seq/BB12015.afa2 -distance1 kmer20_3 -loga BaliRef1.2/seq/BB12015.log2 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_3
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+12 seqs, max length 392, avg  length 192
+Elapsed time 00:00:00  Peak memory use   10 MB(-2%)  Iteration   1 
+Align: (1fd9_A) (SLYD_HELPJ)
+Align: (SLYD_HAEIN) (FKBP_STRCH)
+Align: (1a7x_A) (SLYD_HAEIN,FKBP_STRCH)
+Align: (1fd9_A,SLYD_HELPJ) (1a7x_A,SLYD_HAEIN,FKBP_STRCH)
+Align: (1ix5_A) (1fd9_A,SLYD_HELPJ,1a7x_A,SLYD_HAEIN,FKBP_STRCH)
+Align: (FKBX_PSEFL) (1ix5_A,1fd9_A,SLYD_HELPJ,1a7x_A,SLYD_HAEIN,FKBP_STRCH)
+Align: (1pbk_) (FKBX_PSEFL,1ix5_A,1fd9_A,SLYD_HELPJ,1a7x_A,SLYD_HAEIN,FKBP_STRCH)
+Align: (FKBX_ECOLI) (1pbk_,FKBX_PSEFL,1ix5_A,1fd9_A,SLYD_HELPJ,1a7x_A,SLYD_HAEIN,FKBP_STRCH)
+Align: (SLYD_TREPA) (FKBX_ECOLI,1pbk_,FKBX_PSEFL,1ix5_A,1fd9_A,SLYD_HELPJ,1a7x_A,SLYD_HAEIN,FKBP_STRCH)
+Align: (FKBH_SCHPO) (SLYD_TREPA,FKBX_ECOLI,1pbk_,FKBX_PSEFL,1ix5_A,1fd9_A,SLYD_HELPJ,1a7x_A,SLYD_HAEIN,FKBP_STRCH)
+Align: (FKB4_YEAST) (FKBH_SCHPO,SLYD_TREPA,FKBX_ECOLI,1pbk_,FKBX_PSEFL,1ix5_A,1fd9_A,SLYD_HELPJ,1a7x_A,SLYD_HAEIN,FKBP_STRCH)
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   2 Root alignment
+Anchor columns found       1
+DP area saved by anchors   40.5%
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   4 Refine biparts
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:00  Peak memory use   14 MB(-3%)  Iteration   6 Refine biparts
+Finished Mon Feb 26 12:40:31 2018
+2018-02-26 12:40:31,699368614

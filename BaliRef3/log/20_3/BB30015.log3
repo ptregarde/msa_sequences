@@ -1,0 +1,92 @@
+2018-02-26 12:53:22,298329090
+Started Mon Feb 26 12:53:22 2018
+../muscle3.8.31_i86linux64 -in BaliRef3/seq/BB30015.tfa -out BaliRef3/seq/BB30015.afa3 -distance1 kmer20_3 -loga BaliRef3/seq/BB30015.log3 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_3
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+21 seqs, max length 650, avg  length 270
+Elapsed time 00:00:00  Peak memory use   11 MB(-2%)  Iteration   1 
+Align: (1ag6_) (1cuo_A)
+Align: (PLAS_SYNP7) (AZU1_ALCXX)
+Align: (1j5c_A) (PLAS_SYNP7,AZU1_ALCXX)
+Align: (AZUP_RHILV) (1j5c_A,PLAS_SYNP7,AZU1_ALCXX)
+Align: (PLAS_ANASO) (AZU1_METJ)
+Align: (AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX) (PLAS_ANASO,AZU1_METJ)
+Align: (1baw_A) (AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (1ag6_,1cuo_A) (1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (AZUR_BORPE) (1ag6_,1cuo_A,1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (1aac_) (AZUR_BORPE,1ag6_,1cuo_A,1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (AZU2_ALCXX) (1aac_,AZUR_BORPE,1ag6_,1cuo_A,1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (AZUR_METFL) (AZU2_ALCXX,1aac_,AZUR_BORPE,1ag6_,1cuo_A,1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (PLAS_SCEOB) (AZUR_METFL,AZU2_ALCXX,1aac_,AZUR_BORPE,1ag6_,1cuo_A,1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (1b3i_A) (PLAS_SCEOB,AZUR_METFL,AZU2_ALCXX,1aac_,AZUR_BORPE,1ag6_,1cuo_A,1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (1fwx_A) (1b3i_A,PLAS_SCEOB,AZUR_METFL,AZU2_ALCXX,1aac_,AZUR_BORPE,1ag6_,1cuo_A,1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (NSZ1_PSEAE) (1fwx_A,1b3i_A,PLAS_SCEOB,AZUR_METFL,AZU2_ALCXX,1aac_,AZUR_BORPE,1ag6_,1cuo_A,1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (NOSZ_ALCEU) (NSZ1_PSEAE,1fwx_A,1b3i_A,PLAS_SCEOB,AZUR_METFL,AZU2_ALCXX,1aac_,AZUR_BORPE,1ag6_,1cuo_A,1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (NOSZ_BRUME) (NOSZ_ALCEU,NSZ1_PSEAE,1fwx_A,1b3i_A,PLAS_SCEOB,AZUR_METFL,AZU2_ALCXX,1aac_,AZUR_BORPE,1ag6_,1cuo_A,1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (NOSZ_BRAJA) (NOSZ_BRUME,NOSZ_ALCEU,NSZ1_PSEAE,1fwx_A,1b3i_A,PLAS_SCEOB,AZUR_METFL,AZU2_ALCXX,1aac_,AZUR_BORPE,1ag6_,1cuo_A,1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Align: (NOSZ_PSEFL) (NOSZ_BRAJA,NOSZ_BRUME,NOSZ_ALCEU,NSZ1_PSEAE,1fwx_A,1b3i_A,PLAS_SCEOB,AZUR_METFL,AZU2_ALCXX,1aac_,AZUR_BORPE,1ag6_,1cuo_A,1baw_A,AZUP_RHILV,1j5c_A,PLAS_SYNP7,AZU1_ALCXX,PLAS_ANASO,AZU1_METJ)
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   2 Root alignment
+Anchor columns found       1
+DP area saved by anchors   14.6%
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   3 Refine biparts
+Elapsed time 00:00:00  Peak memory use   16 MB(-3%)  Iteration   4 Refine biparts
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   6 Refine biparts
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   7 Refine biparts
+Finished Mon Feb 26 12:53:23 2018
+2018-02-26 12:53:23,035475789

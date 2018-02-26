@@ -1,0 +1,93 @@
+2018-02-26 12:17:43,958154887
+Started Mon Feb 26 12:17:43 2018
+../muscle3.8.31_i86linux64 -in BaliRef3/seq/BB30015.tfa -out BaliRef3/seq/BB30015.afa -loga BaliRef3/seq/BB30015.log -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer6_6
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+21 seqs, max length 650, avg  length 270
+Elapsed time 00:00:00  Peak memory use   10 MB(-2%)  Iteration   1 K-mer dist pass 1
+Elapsed time 00:00:00  Peak memory use   10 MB(-2%)  Iteration   1 K-mer dist pass 2
+Align: (AZU1_ALCXX) (AZUR_BORPE)
+Align: (AZU2_ALCXX) (AZU1_ALCXX,AZUR_BORPE)
+Align: (AZU1_METJ) (AZU2_ALCXX,AZU1_ALCXX,AZUR_BORPE)
+Align: (1cuo_A) (AZUR_METFL)
+Align: (AZU1_METJ,AZU2_ALCXX,AZU1_ALCXX,AZUR_BORPE) (1cuo_A,AZUR_METFL)
+Align: (NSZ1_PSEAE) (NOSZ_PSEFL)
+Align: (NOSZ_BRUME) (NOSZ_BRAJA)
+Align: (1fwx_A) (NOSZ_BRUME,NOSZ_BRAJA)
+Align: (NSZ1_PSEAE,NOSZ_PSEFL) (1fwx_A,NOSZ_BRUME,NOSZ_BRAJA)
+Align: (NOSZ_ALCEU) (NSZ1_PSEAE,NOSZ_PSEFL,1fwx_A,NOSZ_BRUME,NOSZ_BRAJA)
+Align: (1j5c_A) (PLAS_SYNP7)
+Align: (PLAS_SCEOB) (1j5c_A,PLAS_SYNP7)
+Align: (1baw_A) (PLAS_SCEOB,1j5c_A,PLAS_SYNP7)
+Align: (PLAS_ANASO) (1baw_A,PLAS_SCEOB,1j5c_A,PLAS_SYNP7)
+Align: (1b3i_A) (PLAS_ANASO,1baw_A,PLAS_SCEOB,1j5c_A,PLAS_SYNP7)
+Align: (NOSZ_ALCEU,NSZ1_PSEAE,NOSZ_PSEFL,1fwx_A,NOSZ_BRUME,NOSZ_BRAJA) (1b3i_A,PLAS_ANASO,1baw_A,PLAS_SCEOB,1j5c_A,PLAS_SYNP7)
+Align: (1ag6_) (NOSZ_ALCEU,NSZ1_PSEAE,NOSZ_PSEFL,1fwx_A,NOSZ_BRUME,NOSZ_BRAJA,1b3i_A,PLAS_ANASO,1baw_A,PLAS_SCEOB,1j5c_A,PLAS_SYNP7)
+Align: (AZU1_METJ,AZU2_ALCXX,AZU1_ALCXX,AZUR_BORPE,1cuo_A,AZUR_METFL) (1ag6_,NOSZ_ALCEU,NSZ1_PSEAE,NOSZ_PSEFL,1fwx_A,NOSZ_BRUME,NOSZ_BRAJA,1b3i_A,PLAS_ANASO,1baw_A,PLAS_SCEOB,1j5c_A,PLAS_SYNP7)
+Align: (1aac_) (AZU1_METJ,AZU2_ALCXX,AZU1_ALCXX,AZUR_BORPE,1cuo_A,AZUR_METFL,1ag6_,NOSZ_ALCEU,NSZ1_PSEAE,NOSZ_PSEFL,1fwx_A,NOSZ_BRUME,NOSZ_BRAJA,1b3i_A,PLAS_ANASO,1baw_A,PLAS_SCEOB,1j5c_A,PLAS_SYNP7)
+Align: (AZUP_RHILV) (1aac_,AZU1_METJ,AZU2_ALCXX,AZU1_ALCXX,AZUR_BORPE,1cuo_A,AZUR_METFL,1ag6_,NOSZ_ALCEU,NSZ1_PSEAE,NOSZ_PSEFL,1fwx_A,NOSZ_BRUME,NOSZ_BRAJA,1b3i_A,PLAS_ANASO,1baw_A,PLAS_SCEOB,1j5c_A,PLAS_SYNP7)
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   1 Align node
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   1 Root alignment
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   2 Refine tree
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   2 Root alignment
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   2 Root alignment
+Anchor columns found       2
+DP area saved by anchors   40.9%
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   3 Refine biparts
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   4 Refine biparts
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   6 Refine biparts
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   7 Refine biparts
+Elapsed time 00:00:01  Peak memory use   16 MB(-3%)  Iteration   8 Refine biparts
+Finished Mon Feb 26 12:17:44 2018
+2018-02-26 12:17:44,454618560

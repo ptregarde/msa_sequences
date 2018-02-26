@@ -1,0 +1,12 @@
+Test=sup_224.afa3;Ref=sup_224;Seq=d1a1s_2;Q=0.5217
+Test=sup_224.afa3;Ref=sup_224;Seq=d1duvg1;Q=0.3220
+Test=sup_224.afa3;Ref=sup_224;Seq=d1duvg2;Q=0.5217
+Test=sup_224.afa3;Ref=sup_224;Seq=d1ekxa2;Q=0.5047
+Test=sup_224.afa3;Ref=sup_224;Seq=d1js1x1;Q=0.3145
+Test=sup_224.afa3;Ref=sup_224;Seq=d1js1x2;Q=0.4313
+Test=sup_224.afa3;Ref=sup_224;Seq=d1ml4a1;Q=0.3070
+Test=sup_224.afa3;Ref=sup_224;Seq=d1ml4a2;Q=0.5047
+Test=sup_224.afa3;Ref=sup_224;Seq=d1otha1;Q=0.3220
+Test=sup_224.afa3;Ref=sup_224;Seq=d1otha2;Q=0.5217
+Test=sup_224.afa3;Ref=sup_224;AvgQ=0.4271
+Test=sup_224.afa3;Ref=sup_224;Q=0.427;TC=0;Cline=0.204;Modeler=0.174

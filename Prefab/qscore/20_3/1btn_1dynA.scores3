@@ -1,0 +1,4 @@
+Test=1btn_1dynA.afa3;Ref=1btn_1dynA;Seq=1dynA;Q=0.6304
+Test=1btn_1dynA.afa3;Ref=1btn_1dynA;Seq=1btn;Q=0.6304
+Test=1btn_1dynA.afa3;Ref=1btn_1dynA;AvgQ=0.6304
+Test=1btn_1dynA.afa3;Ref=1btn_1dynA;Q=0.63;TC=0.63

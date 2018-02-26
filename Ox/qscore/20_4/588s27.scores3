@@ -1,0 +1,17 @@
+Test=588s27.afa3;Ref=588s27;Seq=1lmt-2-AUTO.1;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=1hnl-2-AUTO.1;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=1lmp-2-AUTO.1;Q=0.9750
+Test=588s27.afa3;Ref=588s27;Seq=1tby-2-DOMAK;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=1laa-2-DOMAK;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=1tay-2-DOMAK;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=1tcy-2-DOMAK;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=1tdy-2-DOMAK;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=1yap-2-AUTO.1;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=1lhl-2-DOMAK;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=1yao-2-AUTO.1;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=1lhi-2-DOMAK;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=1lzr-2-AUTO.1;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=1lhk-2-DOMAK;Q=0.9982
+Test=588s27.afa3;Ref=588s27;Seq=3lhm-2-DOMAK;Q=0.9982
+Test=588s27.afa3;Ref=588s27;AvgQ=0.9967
+Test=588s27.afa3;Ref=588s27;Q=0.997;TC=0.975;Cline=0.951;Modeler=0.908

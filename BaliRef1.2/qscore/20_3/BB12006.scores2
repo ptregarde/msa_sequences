@@ -1,0 +1,6 @@
+Test=BB12006.afa2;Ref=BB12006;Seq=1al2_ad;Q=0.9799
+Test=BB12006.afa2;Ref=BB12006;Seq=1bbt_ac;Q=0.9598
+Test=BB12006.afa2;Ref=BB12006;Seq=1bev_ac;Q=0.9799
+Test=BB12006.afa2;Ref=BB12006;Seq=1mec_ac;Q=0.9759
+Test=BB12006.afa2;Ref=BB12006;AvgQ=0.9739
+Test=BB12006.afa2;Ref=BB12006;Q=0.974;TC=0.958;Cline=0.832;Modeler=0.722

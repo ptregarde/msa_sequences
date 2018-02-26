@@ -1,0 +1,96 @@
+2018-02-26 13:04:41,507035020
+Started Mon Feb 26 13:04:41 2018
+../muscle3.8.31_i86linux64 -in Sabre/seq/sup_215.fasta -out Sabre/seq/sup_215.afa -distance1 kmer20_3 -loga Sabre/seq/sup_215.log -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_3
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+25 seqs, max length 470, avg  length 406
+Elapsed time 00:00:00  Peak memory use   11 MB(-2%)  Iteration   1 
+Align: (d1gtxa_) (d1qisa_)
+Align: (d1b9ha_) (d1n8pa_)
+Align: (d1c4ka2) (d1j32a_)
+Align: (d1c7na_) (d1elua_)
+Align: (d1kl1a_) (d1c7na_,d1elua_)
+Align: (d7aata_) (d1kl1a_,d1c7na_,d1elua_)
+Align: (d1c4ka2,d1j32a_) (d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d1jf9a_) (d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d1ibja_) (d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d1yaaa_) (d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d2oata_) (d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d1bs0a_) (d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d1e5ea_) (d1bs0a_,d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d1b9ha_,d1n8pa_) (d1e5ea_,d1bs0a_,d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d1tpla_) (d1b9ha_,d1n8pa_,d1e5ea_,d1bs0a_,d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d2dkb__) (d1tpla_,d1b9ha_,d1n8pa_,d1e5ea_,d1bs0a_,d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d1ajsa_) (d2dkb__,d1tpla_,d1b9ha_,d1n8pa_,d1e5ea_,d1bs0a_,d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d1gtxa_,d1qisa_) (d1ajsa_,d2dkb__,d1tpla_,d1b9ha_,d1n8pa_,d1e5ea_,d1bs0a_,d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d1o4sa_) (d1gtxa_,d1qisa_,d1ajsa_,d2dkb__,d1tpla_,d1b9ha_,d1n8pa_,d1e5ea_,d1bs0a_,d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d3tata_) (d1o4sa_,d1gtxa_,d1qisa_,d1ajsa_,d2dkb__,d1tpla_,d1b9ha_,d1n8pa_,d1e5ea_,d1bs0a_,d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d1bj4a_) (d3tata_,d1o4sa_,d1gtxa_,d1qisa_,d1ajsa_,d2dkb__,d1tpla_,d1b9ha_,d1n8pa_,d1e5ea_,d1bs0a_,d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d2gsaa_) (d1bj4a_,d3tata_,d1o4sa_,d1gtxa_,d1qisa_,d1ajsa_,d2dkb__,d1tpla_,d1b9ha_,d1n8pa_,d1e5ea_,d1bs0a_,d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d1gdea_) (d2gsaa_,d1bj4a_,d3tata_,d1o4sa_,d1gtxa_,d1qisa_,d1ajsa_,d2dkb__,d1tpla_,d1b9ha_,d1n8pa_,d1e5ea_,d1bs0a_,d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Align: (d2ay1a_) (d1gdea_,d2gsaa_,d1bj4a_,d3tata_,d1o4sa_,d1gtxa_,d1qisa_,d1ajsa_,d2dkb__,d1tpla_,d1b9ha_,d1n8pa_,d1e5ea_,d1bs0a_,d2oata_,d1yaaa_,d1ibja_,d1jf9a_,d1c4ka2,d1j32a_,d7aata_,d1kl1a_,d1c7na_,d1elua_)
+Elapsed time 00:00:00  Peak memory use   20 MB(-4%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   20 MB(-4%)  Iteration   1 Root alignment
+Elapsed time 00:00:00  Peak memory use   20 MB(-4%)  Iteration   2 Refine tree
+Elapsed time 00:00:00  Peak memory use   20 MB(-4%)  Iteration   2 Root alignment
+Elapsed time 00:00:00  Peak memory use   20 MB(-4%)  Iteration   2 Root alignment
+Anchor columns found       0
+DP area saved by anchors   0.0 %
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   3 Refine biparts
+Elapsed time 00:00:01  Peak memory use   20 MB(-4%)  Iteration   4 Refine biparts
+Elapsed time 00:00:02  Peak memory use   20 MB(-4%)  Iteration   5 Refine biparts
+Elapsed time 00:00:02  Peak memory use   20 MB(-4%)  Iteration   6 Refine biparts
+Elapsed time 00:00:03  Peak memory use   20 MB(-4%)  Iteration   7 Refine biparts
+Elapsed time 00:00:03  Peak memory use   20 MB(-4%)  Iteration   7 Refine biparts
+Finished Mon Feb 26 13:04:44 2018
+2018-02-26 13:04:44,237572907

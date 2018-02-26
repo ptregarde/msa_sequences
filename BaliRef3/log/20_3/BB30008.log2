@@ -1,0 +1,131 @@
+2018-02-26 12:51:01,265827360
+Started Mon Feb 26 12:51:01 2018
+../muscle3.8.31_i86linux64 -in BaliRef3/seq/BB30008.tfa -out BaliRef3/seq/BB30008.afa2 -distance1 kmer20_3 -loga BaliRef3/seq/BB30008.log2 -verbose 
+Alphabet Amino
+
+MUSCLE v3.8.31 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966914
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   False
+Catch exceptions         True
+Quiet                    False
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer20_3
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+36 seqs, max length 1155, avg  length 526
+Elapsed time 00:00:00  Peak memory use   11 MB(-2%)  Iteration   1 
+Align: (IF2G_THEAC) (EF1A_METTH)
+Align: (IF2G_ENCCU) (EF1A_METKA)
+Align: (EF1A_PYRAE) (IF2G_ENCCU,EF1A_METKA)
+Align: (EF1A_AERPE) (EF1A_PYRAE,IF2G_ENCCU,EF1A_METKA)
+Align: (IF2G_THEAC,EF1A_METTH) (EF1A_AERPE,EF1A_PYRAE,IF2G_ENCCU,EF1A_METKA)
+Align: (EF11_DROME) (IF2G_THEAC,EF1A_METTH,EF1A_AERPE,EF1A_PYRAE,IF2G_ENCCU,EF1A_METKA)
+Align: (EF1A_DESMO) (EF11_DROME,IF2G_THEAC,EF1A_METTH,EF1A_AERPE,EF1A_PYRAE,IF2G_ENCCU,EF1A_METKA)
+Align: (IF2G_METTH) (EF1A_METJA)
+Align: (IF2G_YEAST) (IF2G_METTH,EF1A_METJA)
+Align: (IF2G_HALSA) (EF1A_HYDAT)
+Align: (1f60_A) (IF2G_HALSA,EF1A_HYDAT)
+Align: (EF1A_TETPY) (1f60_A,IF2G_HALSA,EF1A_HYDAT)
+Align: (EF1A_TRYBB) (EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT)
+Align: (IF2G_METJA) (EF1A_DICDI)
+Align: (EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT) (IF2G_METJA,EF1A_DICDI)
+Align: (EF1A_ARATH) (EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT,IF2G_METJA,EF1A_DICDI)
+Align: (IF2G_METKA) (EF1A_ONCVO)
+Align: (IF2G_DROME) (IF2G_METKA,EF1A_ONCVO)
+Align: (IF2G_SCHPO) (IF2G_DROME,IF2G_METKA,EF1A_ONCVO)
+Align: (EF1A_STYLE) (1g7r_A)
+Align: (IF2G_AERPE) (EF1C_PORPU)
+Align: (EF1A_STYLE,1g7r_A) (IF2G_AERPE,EF1C_PORPU)
+Align: (IF2G_HUMAN) (EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Align: (IF2G_SCHPO,IF2G_DROME,IF2G_METKA,EF1A_ONCVO) (IF2G_HUMAN,EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Align: (EF1A_ARATH,EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT,IF2G_METJA,EF1A_DICDI) (IF2G_SCHPO,IF2G_DROME,IF2G_METKA,EF1A_ONCVO,IF2G_HUMAN,EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Align: (IF2G_ARCFU) (EF1A_ARATH,EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT,IF2G_METJA,EF1A_DICDI,IF2G_SCHPO,IF2G_DROME,IF2G_METKA,EF1A_ONCVO,IF2G_HUMAN,EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Align: (IF2G_YEAST,IF2G_METTH,EF1A_METJA) (IF2G_ARCFU,EF1A_ARATH,EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT,IF2G_METJA,EF1A_DICDI,IF2G_SCHPO,IF2G_DROME,IF2G_METKA,EF1A_ONCVO,IF2G_HUMAN,EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Align: (1kjz_A) (IF2G_YEAST,IF2G_METTH,EF1A_METJA,IF2G_ARCFU,EF1A_ARATH,EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT,IF2G_METJA,EF1A_DICDI,IF2G_SCHPO,IF2G_DROME,IF2G_METKA,EF1A_ONCVO,IF2G_HUMAN,EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Align: (IF2G_METAC) (1kjz_A,IF2G_YEAST,IF2G_METTH,EF1A_METJA,IF2G_ARCFU,EF1A_ARATH,EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT,IF2G_METJA,EF1A_DICDI,IF2G_SCHPO,IF2G_DROME,IF2G_METKA,EF1A_ONCVO,IF2G_HUMAN,EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Align: (EF1A_DESMO,EF11_DROME,IF2G_THEAC,EF1A_METTH,EF1A_AERPE,EF1A_PYRAE,IF2G_ENCCU,EF1A_METKA) (IF2G_METAC,1kjz_A,IF2G_YEAST,IF2G_METTH,EF1A_METJA,IF2G_ARCFU,EF1A_ARATH,EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT,IF2G_METJA,EF1A_DICDI,IF2G_SCHPO,IF2G_DROME,IF2G_METKA,EF1A_ONCVO,IF2G_HUMAN,EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Align: (IF2P_YEAST) (EF1A_DESMO,EF11_DROME,IF2G_THEAC,EF1A_METTH,EF1A_AERPE,EF1A_PYRAE,IF2G_ENCCU,EF1A_METKA,IF2G_METAC,1kjz_A,IF2G_YEAST,IF2G_METTH,EF1A_METJA,IF2G_ARCFU,EF1A_ARATH,EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT,IF2G_METJA,EF1A_DICDI,IF2G_SCHPO,IF2G_DROME,IF2G_METKA,EF1A_ONCVO,IF2G_HUMAN,EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Align: (IF2P_PYRHO) (IF2P_YEAST,EF1A_DESMO,EF11_DROME,IF2G_THEAC,EF1A_METTH,EF1A_AERPE,EF1A_PYRAE,IF2G_ENCCU,EF1A_METKA,IF2G_METAC,1kjz_A,IF2G_YEAST,IF2G_METTH,EF1A_METJA,IF2G_ARCFU,EF1A_ARATH,EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT,IF2G_METJA,EF1A_DICDI,IF2G_SCHPO,IF2G_DROME,IF2G_METKA,EF1A_ONCVO,IF2G_HUMAN,EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Align: (IF2P_METJA) (IF2P_PYRHO,IF2P_YEAST,EF1A_DESMO,EF11_DROME,IF2G_THEAC,EF1A_METTH,EF1A_AERPE,EF1A_PYRAE,IF2G_ENCCU,EF1A_METKA,IF2G_METAC,1kjz_A,IF2G_YEAST,IF2G_METTH,EF1A_METJA,IF2G_ARCFU,EF1A_ARATH,EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT,IF2G_METJA,EF1A_DICDI,IF2G_SCHPO,IF2G_DROME,IF2G_METKA,EF1A_ONCVO,IF2G_HUMAN,EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Align: (IF2P_PYRFU) (IF2P_METJA,IF2P_PYRHO,IF2P_YEAST,EF1A_DESMO,EF11_DROME,IF2G_THEAC,EF1A_METTH,EF1A_AERPE,EF1A_PYRAE,IF2G_ENCCU,EF1A_METKA,IF2G_METAC,1kjz_A,IF2G_YEAST,IF2G_METTH,EF1A_METJA,IF2G_ARCFU,EF1A_ARATH,EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT,IF2G_METJA,EF1A_DICDI,IF2G_SCHPO,IF2G_DROME,IF2G_METKA,EF1A_ONCVO,IF2G_HUMAN,EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Align: (IF2P_PYRAB) (IF2P_PYRFU,IF2P_METJA,IF2P_PYRHO,IF2P_YEAST,EF1A_DESMO,EF11_DROME,IF2G_THEAC,EF1A_METTH,EF1A_AERPE,EF1A_PYRAE,IF2G_ENCCU,EF1A_METKA,IF2G_METAC,1kjz_A,IF2G_YEAST,IF2G_METTH,EF1A_METJA,IF2G_ARCFU,EF1A_ARATH,EF1A_TRYBB,EF1A_TETPY,1f60_A,IF2G_HALSA,EF1A_HYDAT,IF2G_METJA,EF1A_DICDI,IF2G_SCHPO,IF2G_DROME,IF2G_METKA,EF1A_ONCVO,IF2G_HUMAN,EF1A_STYLE,1g7r_A,IF2G_AERPE,EF1C_PORPU)
+Elapsed time 00:00:00  Peak memory use   30 MB(-6%)  Iteration   1 Align node
+Elapsed time 00:00:00  Peak memory use   30 MB(-6%)  Iteration   1 Root alignment
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration   2 Refine tree
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration   2 Root alignment
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration   2 Root alignment
+Anchor columns found       10
+DP area saved by anchors   73.4%
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration   3 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration   4 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration   5 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration   6 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration   7 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration   8 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration   8 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration   9 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration  10 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration  11 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration  12 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration  13 Refine biparts
+Elapsed time 00:00:01  Peak memory use   30 MB(-6%)  Iteration  14 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  15 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  16 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  17 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  18 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  19 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  20 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  21 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  21 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  22 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  23 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  24 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  24 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  25 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  26 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  27 Refine biparts
+Elapsed time 00:00:02  Peak memory use   30 MB(-6%)  Iteration  27 Refine biparts
+Finished Mon Feb 26 12:51:03 2018
+2018-02-26 12:51:03,230940836
